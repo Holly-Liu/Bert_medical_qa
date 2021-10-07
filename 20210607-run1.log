@@ -1,0 +1,5 @@
+model bert_medical_qa
+Reading file cost time: 0:00:01
+Tokenizing cost time: 0:00:41
+Join table cost time: 0:00:00
+Zip and transfer to list cost time: 0:00:00

@@ -1,0 +1,978 @@
+2021-06-21 14:01:44,722 - run.py[line:38] - INFO: exp params
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: require_improvement: 5000
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: num_epochs: 3
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: batch_size: 32
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: pad_size: 64
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: learning_rate: 2e-05
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: margin: 0.1
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: hidden_size: 768
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: hitn: 1
+2021-06-21 14:01:44,723 - run.py[line:40] - INFO: model: bert_mean_pool
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: device: cuda:2
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: seed: 1
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: output_size: 100
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: log_name: MTBERT_CONS__bash_exp1_gama_0.3
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: bert_path: /home/users/liuhongli/Models/prev_trained_model/MTBert
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: dev_step: 500
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: test_step: 1000
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: train_method: cons
+2021-06-21 14:01:44,724 - run.py[line:40] - INFO: gama: 0.3
+2021-06-21 14:01:44,725 - run.py[line:60] - INFO: Loading data...
+2021-06-21 14:02:55,503 - run.py[line:69] - INFO: Time usage:0:01:11
+2021-06-21 14:03:00,059 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:75] - INFO: Epoch [1/3]
+2021-06-21 14:03:08,222 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 10, train loss: 3.3494036197662354
+2021-06-21 14:03:16,251 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 20, train loss: 3.2312204837799072
+2021-06-21 14:03:24,447 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 30, train loss: 2.7943878173828125
+2021-06-21 14:03:32,567 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 40, train loss: 2.6649415493011475
+2021-06-21 14:03:40,715 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 50, train loss: 2.532773017883301
+2021-06-21 14:03:48,926 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 60, train loss: 2.400263786315918
+2021-06-21 14:03:57,154 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 70, train loss: 2.5346755981445312
+2021-06-21 14:04:05,617 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 80, train loss: 2.3264341354370117
+2021-06-21 14:04:14,153 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 90, train loss: 2.3649442195892334
+2021-06-21 14:04:22,716 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 100, train loss: 2.1606695652008057
+2021-06-21 14:04:31,018 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 110, train loss: 2.000059127807617
+2021-06-21 14:04:39,435 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 120, train loss: 2.0484561920166016
+2021-06-21 14:04:47,689 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 130, train loss: 2.004025459289551
+2021-06-21 14:04:55,895 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 140, train loss: 2.010396718978882
+2021-06-21 14:05:04,185 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 150, train loss: 2.10385799407959
+2021-06-21 14:05:12,621 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 160, train loss: 1.6617947816848755
+2021-06-21 14:05:20,918 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 170, train loss: 1.9575128555297852
+2021-06-21 14:05:29,265 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 180, train loss: 1.6667957305908203
+2021-06-21 14:05:37,483 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 190, train loss: 1.9528121948242188
+2021-06-21 14:05:45,676 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 200, train loss: 1.7364901304244995
+2021-06-21 14:05:53,929 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 210, train loss: 2.4757282733917236
+2021-06-21 14:06:02,276 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 220, train loss: 2.0716350078582764
+2021-06-21 14:06:10,628 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 230, train loss: 1.6846435070037842
+2021-06-21 14:06:18,824 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 240, train loss: 2.2722885608673096
+2021-06-21 14:06:27,209 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 250, train loss: 2.02079439163208
+2021-06-21 14:06:35,411 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 260, train loss: 2.186504364013672
+2021-06-21 14:06:43,813 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 270, train loss: 1.8419477939605713
+2021-06-21 14:06:52,060 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 280, train loss: 2.1442012786865234
+2021-06-21 14:07:00,397 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 290, train loss: 2.0210444927215576
+2021-06-21 14:07:08,731 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 300, train loss: 2.0979785919189453
+2021-06-21 14:07:16,974 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 310, train loss: 2.263563394546509
+2021-06-21 14:07:25,190 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 320, train loss: 1.7957658767700195
+2021-06-21 14:07:33,411 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 330, train loss: 2.055490255355835
+2021-06-21 14:07:41,774 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 340, train loss: 2.025055408477783
+2021-06-21 14:07:49,999 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 350, train loss: 1.9773657321929932
+2021-06-21 14:07:58,349 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 360, train loss: 2.0393786430358887
+2021-06-21 14:08:06,605 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 370, train loss: 1.8170777559280396
+2021-06-21 14:08:14,965 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 380, train loss: 2.0622849464416504
+2021-06-21 14:08:23,216 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 390, train loss: 2.083402395248413
+2021-06-21 14:08:31,513 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 400, train loss: 1.8608702421188354
+2021-06-21 14:08:39,773 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 410, train loss: 1.6632519960403442
+2021-06-21 14:08:47,906 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 420, train loss: 2.0705761909484863
+2021-06-21 14:08:56,258 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 430, train loss: 1.811553955078125
+2021-06-21 14:09:04,512 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 440, train loss: 1.7281951904296875
+2021-06-21 14:09:12,827 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 450, train loss: 1.9012138843536377
+2021-06-21 14:09:21,144 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 460, train loss: 1.8882527351379395
+2021-06-21 14:09:29,303 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 470, train loss: 1.8751108646392822
+2021-06-21 14:09:37,574 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 480, train loss: 1.9149773120880127
+2021-06-21 14:09:45,875 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 490, train loss: 1.668255090713501
+2021-06-21 14:09:54,799 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 14:11:20,021 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 14:11:20,075 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 500,  Train Loss: 1.8438338041305542,  Val Acc: 0.5799420057994192, Val score: 182.7666554712134, Time: 0:08:20 *
+2021-06-21 14:11:28,441 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 510, train loss: 1.9598077535629272
+2021-06-21 14:11:36,726 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 520, train loss: 2.1922483444213867
+2021-06-21 14:11:44,902 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 530, train loss: 2.225588083267212
+2021-06-21 14:11:53,061 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 540, train loss: 1.9086202383041382
+2021-06-21 14:12:01,246 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 550, train loss: 2.037907600402832
+2021-06-21 14:12:09,503 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 560, train loss: 2.0341739654541016
+2021-06-21 14:12:17,640 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 570, train loss: 1.687157154083252
+2021-06-21 14:12:25,857 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 580, train loss: 2.0088465213775635
+2021-06-21 14:12:34,028 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 590, train loss: 1.695217251777649
+2021-06-21 14:12:42,277 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 600, train loss: 1.8453856706619263
+2021-06-21 14:12:50,548 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 610, train loss: 2.14168119430542
+2021-06-21 14:12:58,802 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 620, train loss: 1.7091574668884277
+2021-06-21 14:13:07,074 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 630, train loss: 1.7488957643508911
+2021-06-21 14:13:15,784 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 640, train loss: 2.132244110107422
+2021-06-21 14:13:24,676 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 650, train loss: 1.9906238317489624
+2021-06-21 14:13:33,492 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 660, train loss: 1.6892354488372803
+2021-06-21 14:13:42,314 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 670, train loss: 1.6285735368728638
+2021-06-21 14:13:50,615 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 680, train loss: 1.927767038345337
+2021-06-21 14:13:58,806 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 690, train loss: 1.9640607833862305
+2021-06-21 14:14:07,089 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 700, train loss: 1.8652549982070923
+2021-06-21 14:14:15,184 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 710, train loss: 1.9928085803985596
+2021-06-21 14:14:23,408 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 720, train loss: 1.9017254114151
+2021-06-21 14:14:31,580 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 730, train loss: 2.1531808376312256
+2021-06-21 14:14:39,761 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 740, train loss: 1.8246359825134277
+2021-06-21 14:14:47,990 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 750, train loss: 1.8259434700012207
+2021-06-21 14:14:56,160 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 760, train loss: 1.8465911149978638
+2021-06-21 14:15:04,340 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 770, train loss: 1.921953797340393
+2021-06-21 14:15:12,530 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 780, train loss: 1.805501937866211
+2021-06-21 14:15:20,796 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 790, train loss: 2.157010078430176
+2021-06-21 14:15:29,175 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 800, train loss: 1.8924438953399658
+2021-06-21 14:15:38,140 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 810, train loss: 1.7616169452667236
+2021-06-21 14:15:46,482 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 820, train loss: 1.6969611644744873
+2021-06-21 14:15:54,939 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 830, train loss: 1.9073866605758667
+2021-06-21 14:16:03,126 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 840, train loss: 2.0443522930145264
+2021-06-21 14:16:11,327 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 850, train loss: 1.8162068128585815
+2021-06-21 14:16:19,522 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 860, train loss: 2.1912930011749268
+2021-06-21 14:16:27,680 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 870, train loss: 2.0073885917663574
+2021-06-21 14:16:35,944 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 880, train loss: 2.0259032249450684
+2021-06-21 14:16:44,089 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 890, train loss: 1.692889928817749
+2021-06-21 14:16:52,373 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 900, train loss: 2.1380279064178467
+2021-06-21 14:17:00,453 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 910, train loss: 2.0087850093841553
+2021-06-21 14:17:08,781 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 920, train loss: 1.932002305984497
+2021-06-21 14:17:17,071 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 930, train loss: 1.6843348741531372
+2021-06-21 14:17:25,386 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 940, train loss: 1.5693680047988892
+2021-06-21 14:17:33,662 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 950, train loss: 1.8114089965820312
+2021-06-21 14:17:41,841 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 960, train loss: 1.580896019935608
+2021-06-21 14:17:50,039 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 970, train loss: 1.8068199157714844
+2021-06-21 14:17:58,226 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 980, train loss: 1.6976639032363892
+2021-06-21 14:18:06,447 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 990, train loss: 1.8551642894744873
+2021-06-21 14:18:15,354 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 14:19:40,728 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 14:19:40,782 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 1000,  Train Loss: 1.7016373872756958,  Val Acc: 0.5649435056494343, Val score: 175.795487242465, Time: 0:16:41 
+2021-06-21 14:19:40,783 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 14:19:40,784 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 14:33:55,863 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 14:33:56,338 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 1000, test Acc: 0.5959404059594091, test score: 1909.4784812789196, Time: 0:16:41 
+2021-06-21 14:34:04,511 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1010, train loss: 2.3318703174591064
+2021-06-21 14:34:12,729 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1020, train loss: 1.654187560081482
+2021-06-21 14:34:20,931 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1030, train loss: 1.7330468893051147
+2021-06-21 14:34:29,075 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1040, train loss: 1.8632639646530151
+2021-06-21 14:34:37,212 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1050, train loss: 1.6853110790252686
+2021-06-21 14:34:45,272 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1060, train loss: 1.6723320484161377
+2021-06-21 14:34:53,485 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1070, train loss: 1.7074958086013794
+2021-06-21 14:35:01,592 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1080, train loss: 1.8605891466140747
+2021-06-21 14:35:09,682 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1090, train loss: 1.5707404613494873
+2021-06-21 14:35:17,653 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1100, train loss: 1.9578545093536377
+2021-06-21 14:35:25,834 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1110, train loss: 1.75899338722229
+2021-06-21 14:35:33,902 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1120, train loss: 1.653881311416626
+2021-06-21 14:35:41,964 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1130, train loss: 1.9403810501098633
+2021-06-21 14:35:50,031 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1140, train loss: 1.8201494216918945
+2021-06-21 14:35:58,163 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1150, train loss: 1.9699195623397827
+2021-06-21 14:36:06,496 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1160, train loss: 1.8327754735946655
+2021-06-21 14:36:14,820 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1170, train loss: 1.5886715650558472
+2021-06-21 14:36:23,105 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1180, train loss: 1.8393738269805908
+2021-06-21 14:36:31,439 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1190, train loss: 2.0477185249328613
+2021-06-21 14:36:39,829 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1200, train loss: 1.9803955554962158
+2021-06-21 14:36:47,946 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1210, train loss: 1.8330256938934326
+2021-06-21 14:36:56,194 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1220, train loss: 2.2900333404541016
+2021-06-21 14:37:04,333 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1230, train loss: 2.1224305629730225
+2021-06-21 14:37:12,538 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1240, train loss: 1.820997953414917
+2021-06-21 14:37:20,770 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1250, train loss: 1.984504222869873
+2021-06-21 14:37:28,956 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1260, train loss: 1.699919581413269
+2021-06-21 14:37:37,105 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1270, train loss: 1.92607581615448
+2021-06-21 14:37:45,292 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1280, train loss: 2.1271746158599854
+2021-06-21 14:37:53,538 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1290, train loss: 1.5267021656036377
+2021-06-21 14:38:01,678 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1300, train loss: 1.966756820678711
+2021-06-21 14:38:09,940 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1310, train loss: 1.9294530153274536
+2021-06-21 14:38:18,094 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1320, train loss: 1.8919594287872314
+2021-06-21 14:38:26,263 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1330, train loss: 2.076262950897217
+2021-06-21 14:38:34,441 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1340, train loss: 1.616628885269165
+2021-06-21 14:38:42,623 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1350, train loss: 2.0450258255004883
+2021-06-21 14:38:50,879 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1360, train loss: 2.0989670753479004
+2021-06-21 14:38:59,067 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1370, train loss: 1.9716334342956543
+2021-06-21 14:39:07,209 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1380, train loss: 1.8601423501968384
+2021-06-21 14:39:15,396 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1390, train loss: 1.8179824352264404
+2021-06-21 14:39:23,825 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1400, train loss: 1.85386323928833
+2021-06-21 14:39:31,983 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1410, train loss: 1.6498225927352905
+2021-06-21 14:39:40,216 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1420, train loss: 1.680661678314209
+2021-06-21 14:39:48,374 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1430, train loss: 1.9231057167053223
+2021-06-21 14:39:56,586 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1440, train loss: 1.8567205667495728
+2021-06-21 14:40:04,777 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1450, train loss: 1.6390310525894165
+2021-06-21 14:40:13,184 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1460, train loss: 1.6695181131362915
+2021-06-21 14:40:21,570 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1470, train loss: 1.9044500589370728
+2021-06-21 14:40:30,511 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1480, train loss: 1.8935884237289429
+2021-06-21 14:40:39,550 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1490, train loss: 1.835587978363037
+2021-06-21 14:40:49,565 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 14:42:14,784 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 14:42:14,840 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 1500,  Train Loss: 2.241591453552246,  Val Acc: 0.624937506249374, Val score: 192.41739138606695, Time: 0:39:15 *
+2021-06-21 14:42:23,358 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1510, train loss: 1.7803412675857544
+2021-06-21 14:42:31,647 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1520, train loss: 1.7633711099624634
+2021-06-21 14:42:39,973 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1530, train loss: 1.8403944969177246
+2021-06-21 14:42:48,195 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1540, train loss: 1.8343602418899536
+2021-06-21 14:42:56,536 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1550, train loss: 2.007385492324829
+2021-06-21 14:43:04,800 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1560, train loss: 1.7738773822784424
+2021-06-21 14:43:12,989 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1570, train loss: 1.7913596630096436
+2021-06-21 14:43:21,244 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1580, train loss: 2.0263307094573975
+2021-06-21 14:43:29,399 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1590, train loss: 1.7088819742202759
+2021-06-21 14:43:37,665 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1600, train loss: 1.9512535333633423
+2021-06-21 14:43:45,754 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1610, train loss: 1.9059984683990479
+2021-06-21 14:43:54,001 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1620, train loss: 1.6983624696731567
+2021-06-21 14:44:02,120 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1630, train loss: 2.1725471019744873
+2021-06-21 14:44:10,377 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1640, train loss: 1.646120548248291
+2021-06-21 14:44:18,505 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1650, train loss: 1.973711371421814
+2021-06-21 14:44:26,787 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1660, train loss: 1.8033785820007324
+2021-06-21 14:44:34,909 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1670, train loss: 1.8532700538635254
+2021-06-21 14:44:43,105 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1680, train loss: 1.9192051887512207
+2021-06-21 14:44:51,365 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1690, train loss: 1.9324753284454346
+2021-06-21 14:44:59,699 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1700, train loss: 1.981195330619812
+2021-06-21 14:45:07,915 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1710, train loss: 1.845336675643921
+2021-06-21 14:45:16,089 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1720, train loss: 1.6870616674423218
+2021-06-21 14:45:24,352 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1730, train loss: 1.7943038940429688
+2021-06-21 14:45:32,447 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1740, train loss: 1.7092556953430176
+2021-06-21 14:45:40,664 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1750, train loss: 1.9077016115188599
+2021-06-21 14:45:48,842 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1760, train loss: 1.7642725706100464
+2021-06-21 14:45:57,041 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1770, train loss: 1.4748495817184448
+2021-06-21 14:46:05,266 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1780, train loss: 1.5288864374160767
+2021-06-21 14:46:13,622 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1790, train loss: 1.8031306266784668
+2021-06-21 14:46:21,868 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1800, train loss: 1.343492865562439
+2021-06-21 14:46:30,223 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1810, train loss: 1.8835208415985107
+2021-06-21 14:46:38,434 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1820, train loss: 1.6705734729766846
+2021-06-21 14:46:46,592 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1830, train loss: 1.457084059715271
+2021-06-21 14:46:54,836 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1840, train loss: 1.7820227146148682
+2021-06-21 14:47:02,984 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1850, train loss: 1.909116506576538
+2021-06-21 14:47:11,193 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1860, train loss: 1.609489917755127
+2021-06-21 14:47:19,437 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1870, train loss: 1.7855967283248901
+2021-06-21 14:47:27,571 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1880, train loss: 1.6222248077392578
+2021-06-21 14:47:35,818 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1890, train loss: 1.7764393091201782
+2021-06-21 14:47:44,196 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1900, train loss: 2.0903310775756836
+2021-06-21 14:47:52,511 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1910, train loss: 1.9632846117019653
+2021-06-21 14:48:00,742 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1920, train loss: 1.9096784591674805
+2021-06-21 14:48:08,931 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1930, train loss: 1.8704276084899902
+2021-06-21 14:48:17,134 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1940, train loss: 1.686149001121521
+2021-06-21 14:48:25,464 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1950, train loss: 1.8194421529769897
+2021-06-21 14:48:33,731 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1960, train loss: 1.9622896909713745
+2021-06-21 14:48:42,115 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1970, train loss: 1.8884787559509277
+2021-06-21 14:48:50,483 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1980, train loss: 1.8080329895019531
+2021-06-21 14:48:58,705 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 1990, train loss: 1.6149803400039673
+2021-06-21 14:49:07,644 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 14:50:32,866 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 14:50:32,917 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 2000,  Train Loss: 1.8886351585388184,  Val Acc: 0.6099390060993891, Val score: 185.93768040214638, Time: 0:47:33 
+2021-06-21 14:50:32,918 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 14:50:32,919 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:04:48,323 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:04:48,801 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 2000, test Acc: 0.6264373562643789, test score: 1973.7278837248184, Time: 0:47:33 
+2021-06-21 15:04:57,043 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2010, train loss: 1.797173261642456
+2021-06-21 15:05:05,204 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2020, train loss: 1.615323781967163
+2021-06-21 15:05:13,366 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2030, train loss: 1.5188934803009033
+2021-06-21 15:05:21,592 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2040, train loss: 1.918654203414917
+2021-06-21 15:05:29,767 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2050, train loss: 1.591196060180664
+2021-06-21 15:05:38,062 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2060, train loss: 1.7363018989562988
+2021-06-21 15:05:46,129 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2070, train loss: 1.9974607229232788
+2021-06-21 15:05:54,260 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2080, train loss: 1.688034176826477
+2021-06-21 15:06:02,336 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2090, train loss: 1.7989665269851685
+2021-06-21 15:06:10,514 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2100, train loss: 2.143360137939453
+2021-06-21 15:06:18,612 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2110, train loss: 1.6205123662948608
+2021-06-21 15:06:26,721 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2120, train loss: 1.6537888050079346
+2021-06-21 15:06:34,884 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2130, train loss: 1.5774894952774048
+2021-06-21 15:06:43,109 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2140, train loss: 1.8204865455627441
+2021-06-21 15:06:51,210 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2150, train loss: 1.692216396331787
+2021-06-21 15:06:59,242 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2160, train loss: 1.8733983039855957
+2021-06-21 15:07:07,560 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2170, train loss: 1.5351802110671997
+2021-06-21 15:07:15,741 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2180, train loss: 2.3370919227600098
+2021-06-21 15:07:23,900 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2190, train loss: 1.877917766571045
+2021-06-21 15:07:32,026 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2200, train loss: 1.497771978378296
+2021-06-21 15:07:40,191 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2210, train loss: 1.664009690284729
+2021-06-21 15:07:48,425 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2220, train loss: 1.9543898105621338
+2021-06-21 15:07:57,187 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2230, train loss: 1.7124040126800537
+2021-06-21 15:08:05,792 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2240, train loss: 1.6993244886398315
+2021-06-21 15:08:14,081 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2250, train loss: 2.205021619796753
+2021-06-21 15:08:22,230 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2260, train loss: 1.6290090084075928
+2021-06-21 15:08:30,406 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2270, train loss: 2.3968393802642822
+2021-06-21 15:08:38,611 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2280, train loss: 2.08368182182312
+2021-06-21 15:08:46,854 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2290, train loss: 1.7571892738342285
+2021-06-21 15:08:55,197 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2300, train loss: 1.6165685653686523
+2021-06-21 15:09:03,377 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2310, train loss: 1.8336392641067505
+2021-06-21 15:09:11,672 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2320, train loss: 1.6810625791549683
+2021-06-21 15:09:19,794 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2330, train loss: 1.7302775382995605
+2021-06-21 15:09:28,075 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2340, train loss: 1.5947493314743042
+2021-06-21 15:09:36,432 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2350, train loss: 1.4956233501434326
+2021-06-21 15:09:44,735 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2360, train loss: 1.6322648525238037
+2021-06-21 15:09:52,944 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2370, train loss: 1.7912291288375854
+2021-06-21 15:10:01,149 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2380, train loss: 1.8253425359725952
+2021-06-21 15:10:09,333 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2390, train loss: 1.5889241695404053
+2021-06-21 15:10:17,530 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2400, train loss: 1.5179147720336914
+2021-06-21 15:10:25,868 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2410, train loss: 1.735808253288269
+2021-06-21 15:10:34,109 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2420, train loss: 1.7324535846710205
+2021-06-21 15:10:42,293 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2430, train loss: 1.7098807096481323
+2021-06-21 15:10:50,532 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2440, train loss: 1.657028079032898
+2021-06-21 15:10:58,835 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2450, train loss: 1.8681020736694336
+2021-06-21 15:11:07,093 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2460, train loss: 1.699202299118042
+2021-06-21 15:11:15,268 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2470, train loss: 1.676049828529358
+2021-06-21 15:11:23,534 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2480, train loss: 1.7335785627365112
+2021-06-21 15:11:31,665 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2490, train loss: 1.5283565521240234
+2021-06-21 15:11:40,766 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:13:06,267 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:13:06,324 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 2500,  Train Loss: 1.857541799545288,  Val Acc: 0.6149385061493841, Val score: 192.91950759262951, Time: 1:10:06 *
+2021-06-21 15:13:14,726 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2510, train loss: 2.1268951892852783
+2021-06-21 15:13:22,972 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2520, train loss: 2.034475564956665
+2021-06-21 15:13:31,295 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2530, train loss: 2.1545403003692627
+2021-06-21 15:13:39,619 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2540, train loss: 1.764193058013916
+2021-06-21 15:13:47,848 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2550, train loss: 2.009796619415283
+2021-06-21 15:13:56,089 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2560, train loss: 2.2151851654052734
+2021-06-21 15:14:04,263 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2570, train loss: 1.8611513376235962
+2021-06-21 15:14:12,513 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2580, train loss: 1.660460114479065
+2021-06-21 15:14:20,623 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2590, train loss: 1.6441211700439453
+2021-06-21 15:14:28,831 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2600, train loss: 1.5618970394134521
+2021-06-21 15:14:37,018 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2610, train loss: 2.0173449516296387
+2021-06-21 15:14:45,198 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2620, train loss: 1.6800614595413208
+2021-06-21 15:14:53,571 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2630, train loss: 1.9996880292892456
+2021-06-21 15:15:02,345 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2640, train loss: 1.9655094146728516
+2021-06-21 15:15:11,190 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2650, train loss: 1.9576858282089233
+2021-06-21 15:15:20,090 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2660, train loss: 1.7091082334518433
+2021-06-21 15:15:29,104 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2670, train loss: 1.9727486371994019
+2021-06-21 15:15:37,972 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2680, train loss: 1.6269149780273438
+2021-06-21 15:15:46,263 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2690, train loss: 1.6301454305648804
+2021-06-21 15:15:54,637 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2700, train loss: 1.8235551118850708
+2021-06-21 15:16:02,866 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2710, train loss: 1.6580209732055664
+2021-06-21 15:16:11,078 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2720, train loss: 1.857606291770935
+2021-06-21 15:16:20,043 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2730, train loss: 2.0400168895721436
+2021-06-21 15:16:29,065 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2740, train loss: 2.1668601036071777
+2021-06-21 15:16:37,737 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2750, train loss: 1.4993252754211426
+2021-06-21 15:16:45,973 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2760, train loss: 2.010863780975342
+2021-06-21 15:16:54,291 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2770, train loss: 2.3497796058654785
+2021-06-21 15:17:02,431 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2780, train loss: 1.959251046180725
+2021-06-21 15:17:10,691 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2790, train loss: 1.6930097341537476
+2021-06-21 15:17:18,857 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2800, train loss: 2.195047616958618
+2021-06-21 15:17:27,346 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2810, train loss: 2.1802639961242676
+2021-06-21 15:17:36,255 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2820, train loss: 2.224010944366455
+2021-06-21 15:17:45,235 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2830, train loss: 2.0743088722229004
+2021-06-21 15:17:54,335 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2840, train loss: 1.9413145780563354
+2021-06-21 15:18:03,341 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2850, train loss: 1.7267202138900757
+2021-06-21 15:18:12,471 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2860, train loss: 1.6573328971862793
+2021-06-21 15:18:21,421 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2870, train loss: 1.8865545988082886
+2021-06-21 15:18:30,427 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2880, train loss: 1.6786110401153564
+2021-06-21 15:18:39,155 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2890, train loss: 1.9215196371078491
+2021-06-21 15:18:47,284 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2900, train loss: 1.753817081451416
+2021-06-21 15:18:55,542 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2910, train loss: 1.480425238609314
+2021-06-21 15:19:03,702 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2920, train loss: 1.6527280807495117
+2021-06-21 15:19:11,863 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2930, train loss: 1.5485737323760986
+2021-06-21 15:19:20,577 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2940, train loss: 1.7043904066085815
+2021-06-21 15:19:29,365 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2950, train loss: 1.5403422117233276
+2021-06-21 15:19:31,454 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:75] - INFO: Epoch [2/3]
+2021-06-21 15:19:37,630 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2960, train loss: 2.0711464881896973
+2021-06-21 15:19:46,423 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2970, train loss: 1.488196849822998
+2021-06-21 15:19:54,987 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2980, train loss: 2.1617047786712646
+2021-06-21 15:20:03,222 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 2990, train loss: 1.7263422012329102
+2021-06-21 15:20:12,345 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:21:37,534 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:21:37,590 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 3000,  Train Loss: 1.6839252710342407,  Val Acc: 0.5999400059993991, Val score: 192.3981732124707, Time: 1:18:38 
+2021-06-21 15:21:37,591 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 15:21:37,592 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:35:52,964 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:35:53,447 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 3000, test Acc: 0.6319368063193734, test score: 1995.4650913144228, Time: 1:18:38 
+2021-06-21 15:36:01,762 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3010, train loss: 1.7323673963546753
+2021-06-21 15:36:09,964 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3020, train loss: 2.0146210193634033
+2021-06-21 15:36:18,178 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3030, train loss: 1.6162539720535278
+2021-06-21 15:36:26,354 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3040, train loss: 1.384929895401001
+2021-06-21 15:36:34,536 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3050, train loss: 2.034529447555542
+2021-06-21 15:36:42,730 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3060, train loss: 1.7635536193847656
+2021-06-21 15:36:50,968 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3070, train loss: 1.8081202507019043
+2021-06-21 15:36:59,650 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3080, train loss: 1.3728288412094116
+2021-06-21 15:37:08,344 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3090, train loss: 1.8255678415298462
+2021-06-21 15:37:16,968 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3100, train loss: 1.5805432796478271
+2021-06-21 15:37:25,743 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3110, train loss: 2.162811517715454
+2021-06-21 15:37:34,440 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3120, train loss: 1.5826871395111084
+2021-06-21 15:37:43,049 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3130, train loss: 2.1540188789367676
+2021-06-21 15:37:51,707 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3140, train loss: 1.6121028661727905
+2021-06-21 15:37:59,980 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3150, train loss: 1.7145689725875854
+2021-06-21 15:38:08,238 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3160, train loss: 1.873533010482788
+2021-06-21 15:38:16,320 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3170, train loss: 1.6473733186721802
+2021-06-21 15:38:24,579 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3180, train loss: 1.7441887855529785
+2021-06-21 15:38:32,696 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3190, train loss: 1.6958149671554565
+2021-06-21 15:38:40,922 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3200, train loss: 1.6170203685760498
+2021-06-21 15:38:49,109 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3210, train loss: 1.7616630792617798
+2021-06-21 15:38:57,309 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3220, train loss: 1.924851655960083
+2021-06-21 15:39:05,496 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3230, train loss: 1.855565071105957
+2021-06-21 15:39:13,730 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3240, train loss: 1.7965693473815918
+2021-06-21 15:39:21,901 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3250, train loss: 1.6179345846176147
+2021-06-21 15:39:30,068 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3260, train loss: 1.7595996856689453
+2021-06-21 15:39:38,296 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3270, train loss: 1.716707706451416
+2021-06-21 15:39:46,411 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3280, train loss: 1.580680012702942
+2021-06-21 15:39:54,625 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3290, train loss: 1.7467734813690186
+2021-06-21 15:40:02,843 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3300, train loss: 1.6137053966522217
+2021-06-21 15:40:11,251 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3310, train loss: 1.5893549919128418
+2021-06-21 15:40:19,475 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3320, train loss: 1.5802969932556152
+2021-06-21 15:40:27,875 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3330, train loss: 1.5485759973526
+2021-06-21 15:40:36,013 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3340, train loss: 1.6401103734970093
+2021-06-21 15:40:44,235 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3350, train loss: 1.4347988367080688
+2021-06-21 15:40:52,454 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3360, train loss: 1.8492627143859863
+2021-06-21 15:41:00,825 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3370, train loss: 1.6579701900482178
+2021-06-21 15:41:09,161 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3380, train loss: 1.6083570718765259
+2021-06-21 15:41:17,392 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3390, train loss: 1.6032284498214722
+2021-06-21 15:41:25,553 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3400, train loss: 2.135050058364868
+2021-06-21 15:41:33,766 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3410, train loss: 1.773697018623352
+2021-06-21 15:41:41,949 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3420, train loss: 1.8210391998291016
+2021-06-21 15:41:50,179 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3430, train loss: 2.02953839302063
+2021-06-21 15:41:58,331 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3440, train loss: 1.7492306232452393
+2021-06-21 15:42:06,402 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3450, train loss: 1.5378996133804321
+2021-06-21 15:42:14,638 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3460, train loss: 1.6463464498519897
+2021-06-21 15:42:22,934 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3470, train loss: 1.6298022270202637
+2021-06-21 15:42:31,111 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3480, train loss: 1.477232575416565
+2021-06-21 15:42:39,385 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3490, train loss: 1.840463638305664
+2021-06-21 15:42:48,233 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:44:13,520 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:44:13,574 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 3500,  Train Loss: 2.1364259719848633,  Val Acc: 0.629937006299369, Val score: 195.3707485928924, Time: 1:41:14 *
+2021-06-21 15:44:21,895 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3510, train loss: 1.8149088621139526
+2021-06-21 15:44:30,114 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3520, train loss: 1.5466737747192383
+2021-06-21 15:44:38,390 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3530, train loss: 1.7921998500823975
+2021-06-21 15:44:46,475 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3540, train loss: 1.9532285928726196
+2021-06-21 15:44:54,679 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3550, train loss: 1.6302992105484009
+2021-06-21 15:45:02,892 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3560, train loss: 1.6920812129974365
+2021-06-21 15:45:11,148 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3570, train loss: 1.7836800813674927
+2021-06-21 15:45:19,258 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3580, train loss: 1.8789629936218262
+2021-06-21 15:45:27,467 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3590, train loss: 2.1613917350769043
+2021-06-21 15:45:35,662 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3600, train loss: 1.4070831537246704
+2021-06-21 15:45:43,839 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3610, train loss: 1.9016016721725464
+2021-06-21 15:45:52,014 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3620, train loss: 1.7701224088668823
+2021-06-21 15:46:00,218 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3630, train loss: 1.9626938104629517
+2021-06-21 15:46:08,404 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3640, train loss: 1.4161611795425415
+2021-06-21 15:46:16,594 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3650, train loss: 1.5119482278823853
+2021-06-21 15:46:24,785 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3660, train loss: 1.7175958156585693
+2021-06-21 15:46:33,011 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3670, train loss: 1.96470046043396
+2021-06-21 15:46:41,222 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3680, train loss: 1.8610954284667969
+2021-06-21 15:46:49,371 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3690, train loss: 1.6657607555389404
+2021-06-21 15:46:57,650 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3700, train loss: 1.7643812894821167
+2021-06-21 15:47:05,839 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3710, train loss: 1.5464977025985718
+2021-06-21 15:47:14,162 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3720, train loss: 2.02624773979187
+2021-06-21 15:47:22,338 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3730, train loss: 1.8398865461349487
+2021-06-21 15:47:30,575 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3740, train loss: 1.6756395101547241
+2021-06-21 15:47:38,738 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3750, train loss: 2.3492214679718018
+2021-06-21 15:47:46,947 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3760, train loss: 1.7957885265350342
+2021-06-21 15:47:55,112 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3770, train loss: 1.9163912534713745
+2021-06-21 15:48:03,305 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3780, train loss: 1.7217605113983154
+2021-06-21 15:48:11,505 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3790, train loss: 1.8694700002670288
+2021-06-21 15:48:19,700 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3800, train loss: 1.6872016191482544
+2021-06-21 15:48:27,880 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3810, train loss: 1.8544286489486694
+2021-06-21 15:48:36,109 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3820, train loss: 1.7021970748901367
+2021-06-21 15:48:44,315 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3830, train loss: 2.1771090030670166
+2021-06-21 15:48:52,549 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3840, train loss: 1.7013769149780273
+2021-06-21 15:49:00,856 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3850, train loss: 1.85016667842865
+2021-06-21 15:49:09,103 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3860, train loss: 1.7341662645339966
+2021-06-21 15:49:17,299 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3870, train loss: 1.745495319366455
+2021-06-21 15:49:25,680 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3880, train loss: 1.6904070377349854
+2021-06-21 15:49:34,065 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3890, train loss: 1.4885128736495972
+2021-06-21 15:49:42,537 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3900, train loss: 1.7267147302627563
+2021-06-21 15:49:50,884 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3910, train loss: 1.6823339462280273
+2021-06-21 15:49:59,216 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3920, train loss: 1.7767237424850464
+2021-06-21 15:50:07,491 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3930, train loss: 1.8496880531311035
+2021-06-21 15:50:15,828 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3940, train loss: 1.7969574928283691
+2021-06-21 15:50:24,081 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3950, train loss: 1.9597187042236328
+2021-06-21 15:50:32,269 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3960, train loss: 1.8216629028320312
+2021-06-21 15:50:40,410 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3970, train loss: 1.521969199180603
+2021-06-21 15:50:48,590 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3980, train loss: 1.9975612163543701
+2021-06-21 15:50:56,893 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 3990, train loss: 1.6278903484344482
+2021-06-21 15:51:05,947 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 15:52:31,160 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 15:52:31,214 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 4000,  Train Loss: 1.813336968421936,  Val Acc: 0.629937006299369, Val score: 188.6964754212311, Time: 1:49:31 
+2021-06-21 15:52:31,215 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 15:52:31,216 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:06:46,629 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:06:47,101 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 4000, test Acc: 0.6469353064693586, test score: 2015.4908988298794, Time: 1:49:31 
+2021-06-21 16:06:55,489 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4010, train loss: 1.9969205856323242
+2021-06-21 16:07:03,681 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4020, train loss: 2.0474157333374023
+2021-06-21 16:07:11,911 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4030, train loss: 1.4154126644134521
+2021-06-21 16:07:20,603 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4040, train loss: 1.739569067955017
+2021-06-21 16:07:29,248 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4050, train loss: 1.6414185762405396
+2021-06-21 16:07:37,990 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4060, train loss: 1.9425143003463745
+2021-06-21 16:07:46,603 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4070, train loss: 1.7454055547714233
+2021-06-21 16:07:55,237 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4080, train loss: 1.6543298959732056
+2021-06-21 16:08:03,784 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4090, train loss: 1.492478847503662
+2021-06-21 16:08:12,145 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4100, train loss: 1.650723934173584
+2021-06-21 16:08:20,246 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4110, train loss: 1.5254513025283813
+2021-06-21 16:08:28,486 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4120, train loss: 1.7514009475708008
+2021-06-21 16:08:36,592 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4130, train loss: 1.6765302419662476
+2021-06-21 16:08:44,667 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4140, train loss: 1.8095659017562866
+2021-06-21 16:08:52,818 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4150, train loss: 1.3039131164550781
+2021-06-21 16:09:01,026 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4160, train loss: 1.6721553802490234
+2021-06-21 16:09:09,243 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4170, train loss: 1.724832534790039
+2021-06-21 16:09:17,453 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4180, train loss: 1.6211230754852295
+2021-06-21 16:09:25,880 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4190, train loss: 1.6750465631484985
+2021-06-21 16:09:34,150 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4200, train loss: 1.555208683013916
+2021-06-21 16:09:42,679 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4210, train loss: 1.501921534538269
+2021-06-21 16:09:51,112 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4220, train loss: 1.8104380369186401
+2021-06-21 16:09:59,815 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4230, train loss: 2.227158784866333
+2021-06-21 16:10:08,671 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4240, train loss: 1.6865296363830566
+2021-06-21 16:10:17,383 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4250, train loss: 1.7318699359893799
+2021-06-21 16:10:26,278 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4260, train loss: 2.35256290435791
+2021-06-21 16:10:34,952 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4270, train loss: 1.7599399089813232
+2021-06-21 16:10:43,732 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4280, train loss: 1.6773037910461426
+2021-06-21 16:10:52,497 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4290, train loss: 1.837684988975525
+2021-06-21 16:11:01,213 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4300, train loss: 1.5161371231079102
+2021-06-21 16:11:10,062 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4310, train loss: 1.8533985614776611
+2021-06-21 16:11:18,823 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4320, train loss: 1.4553115367889404
+2021-06-21 16:11:27,606 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4330, train loss: 1.4304763078689575
+2021-06-21 16:11:36,106 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4340, train loss: 1.4904797077178955
+2021-06-21 16:11:44,254 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4350, train loss: 2.6679270267486572
+2021-06-21 16:11:52,497 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4360, train loss: 1.8867079019546509
+2021-06-21 16:12:00,633 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4370, train loss: 1.9488894939422607
+2021-06-21 16:12:08,911 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4380, train loss: 1.964288353919983
+2021-06-21 16:12:17,027 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4390, train loss: 1.7876605987548828
+2021-06-21 16:12:25,207 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4400, train loss: 1.5659101009368896
+2021-06-21 16:12:33,404 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4410, train loss: 2.2342751026153564
+2021-06-21 16:12:41,643 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4420, train loss: 1.7945293188095093
+2021-06-21 16:12:49,793 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4430, train loss: 1.9437010288238525
+2021-06-21 16:12:57,995 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4440, train loss: 1.7956387996673584
+2021-06-21 16:13:06,174 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4450, train loss: 1.8713816404342651
+2021-06-21 16:13:14,371 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4460, train loss: 1.7232447862625122
+2021-06-21 16:13:22,670 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4470, train loss: 1.6402175426483154
+2021-06-21 16:13:30,978 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4480, train loss: 1.5789309740066528
+2021-06-21 16:13:39,341 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4490, train loss: 1.624549150466919
+2021-06-21 16:13:48,310 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:15:13,596 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:15:13,652 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 4500,  Train Loss: 1.7966941595077515,  Val Acc: 0.6199380061993791, Val score: 194.8736878481828, Time: 2:12:14 
+2021-06-21 16:15:22,150 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4510, train loss: 1.7608760595321655
+2021-06-21 16:15:30,738 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4520, train loss: 1.87692129611969
+2021-06-21 16:15:39,494 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4530, train loss: 1.9181134700775146
+2021-06-21 16:15:47,783 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4540, train loss: 1.635615348815918
+2021-06-21 16:15:55,976 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4550, train loss: 1.9020559787750244
+2021-06-21 16:16:04,206 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4560, train loss: 1.8580199480056763
+2021-06-21 16:16:12,437 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4570, train loss: 1.7915377616882324
+2021-06-21 16:16:20,773 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4580, train loss: 1.5136113166809082
+2021-06-21 16:16:29,039 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4590, train loss: 1.7377732992172241
+2021-06-21 16:16:37,228 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4600, train loss: 1.6906453371047974
+2021-06-21 16:16:45,552 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4610, train loss: 1.9194401502609253
+2021-06-21 16:16:53,922 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4620, train loss: 1.7152163982391357
+2021-06-21 16:17:02,108 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4630, train loss: 1.6359341144561768
+2021-06-21 16:17:10,372 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4640, train loss: 2.139608383178711
+2021-06-21 16:17:18,496 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4650, train loss: 1.6409627199172974
+2021-06-21 16:17:26,717 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4660, train loss: 1.9202781915664673
+2021-06-21 16:17:34,897 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4670, train loss: 1.7784382104873657
+2021-06-21 16:17:43,098 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4680, train loss: 1.6362013816833496
+2021-06-21 16:17:51,299 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4690, train loss: 1.641855239868164
+2021-06-21 16:17:59,614 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4700, train loss: 1.8572410345077515
+2021-06-21 16:18:07,918 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4710, train loss: 1.5989625453948975
+2021-06-21 16:18:16,042 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4720, train loss: 1.5501556396484375
+2021-06-21 16:18:24,309 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4730, train loss: 1.6300557851791382
+2021-06-21 16:18:32,446 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4740, train loss: 2.2101848125457764
+2021-06-21 16:18:40,674 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4750, train loss: 1.6977317333221436
+2021-06-21 16:18:48,840 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4760, train loss: 1.567941427230835
+2021-06-21 16:18:57,040 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4770, train loss: 1.9446710348129272
+2021-06-21 16:19:05,446 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4780, train loss: 2.0528922080993652
+2021-06-21 16:19:14,622 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4790, train loss: 1.8415896892547607
+2021-06-21 16:19:23,815 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4800, train loss: 1.7051379680633545
+2021-06-21 16:19:32,823 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4810, train loss: 1.8408955335617065
+2021-06-21 16:19:41,940 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4820, train loss: 1.8257100582122803
+2021-06-21 16:19:50,982 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4830, train loss: 1.3337692022323608
+2021-06-21 16:20:00,088 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4840, train loss: 1.6532001495361328
+2021-06-21 16:20:08,905 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4850, train loss: 1.7217845916748047
+2021-06-21 16:20:17,161 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4860, train loss: 1.699314832687378
+2021-06-21 16:20:25,379 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4870, train loss: 1.6530925035476685
+2021-06-21 16:20:33,549 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4880, train loss: 1.5292495489120483
+2021-06-21 16:20:41,681 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4890, train loss: 1.653617262840271
+2021-06-21 16:20:49,881 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4900, train loss: 1.9381457567214966
+2021-06-21 16:20:58,067 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4910, train loss: 1.6585757732391357
+2021-06-21 16:21:06,299 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4920, train loss: 1.6376601457595825
+2021-06-21 16:21:14,630 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4930, train loss: 1.6714428663253784
+2021-06-21 16:21:23,108 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4940, train loss: 1.8953578472137451
+2021-06-21 16:21:31,233 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4950, train loss: 1.6273308992385864
+2021-06-21 16:21:39,568 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4960, train loss: 1.9007796049118042
+2021-06-21 16:21:47,901 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4970, train loss: 1.7866301536560059
+2021-06-21 16:21:56,372 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4980, train loss: 1.818768858909607
+2021-06-21 16:22:04,639 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 4990, train loss: 1.522199273109436
+2021-06-21 16:22:13,583 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:23:38,885 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:23:38,938 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 5000,  Train Loss: 1.6544073820114136,  Val Acc: 0.639936006399359, Val score: 199.6851024002085, Time: 2:20:39 *
+2021-06-21 16:23:38,939 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 16:23:38,940 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:37:54,161 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:37:54,649 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 5000, test Acc: 0.6449355064493606, test score: 2009.5541232215842, Time: 2:20:39 
+2021-06-21 16:38:02,895 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5010, train loss: 1.6802514791488647
+2021-06-21 16:38:11,184 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5020, train loss: 1.6427778005599976
+2021-06-21 16:38:19,247 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5030, train loss: 1.7535827159881592
+2021-06-21 16:38:27,485 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5040, train loss: 1.872783899307251
+2021-06-21 16:38:35,744 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5050, train loss: 1.9122099876403809
+2021-06-21 16:38:43,894 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5060, train loss: 1.5749346017837524
+2021-06-21 16:38:51,956 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5070, train loss: 1.5043779611587524
+2021-06-21 16:39:00,035 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5080, train loss: 1.7428512573242188
+2021-06-21 16:39:08,201 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5090, train loss: 1.5498515367507935
+2021-06-21 16:39:16,211 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5100, train loss: 1.6085178852081299
+2021-06-21 16:39:24,313 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5110, train loss: 1.7550677061080933
+2021-06-21 16:39:32,425 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5120, train loss: 2.068584442138672
+2021-06-21 16:39:40,753 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5130, train loss: 1.6312942504882812
+2021-06-21 16:39:49,025 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5140, train loss: 2.063133955001831
+2021-06-21 16:39:57,344 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5150, train loss: 1.956632137298584
+2021-06-21 16:40:05,401 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5160, train loss: 1.6089303493499756
+2021-06-21 16:40:13,581 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5170, train loss: 1.7149999141693115
+2021-06-21 16:40:21,868 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5180, train loss: 1.615344524383545
+2021-06-21 16:40:30,199 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5190, train loss: 1.7468805313110352
+2021-06-21 16:40:38,378 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5200, train loss: 1.3983994722366333
+2021-06-21 16:40:46,554 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5210, train loss: 1.4245352745056152
+2021-06-21 16:40:54,782 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5220, train loss: 2.2195193767547607
+2021-06-21 16:41:02,978 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5230, train loss: 1.4609898328781128
+2021-06-21 16:41:11,181 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5240, train loss: 1.472900629043579
+2021-06-21 16:41:19,331 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5250, train loss: 1.7193857431411743
+2021-06-21 16:41:27,510 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5260, train loss: 1.5702728033065796
+2021-06-21 16:41:35,719 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5270, train loss: 1.8522212505340576
+2021-06-21 16:41:43,901 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5280, train loss: 1.5512721538543701
+2021-06-21 16:41:52,145 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5290, train loss: 2.0114905834198
+2021-06-21 16:42:00,272 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5300, train loss: 1.8115828037261963
+2021-06-21 16:42:08,548 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5310, train loss: 1.6317174434661865
+2021-06-21 16:42:16,692 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5320, train loss: 1.5492613315582275
+2021-06-21 16:42:25,056 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5330, train loss: 1.5635507106781006
+2021-06-21 16:42:33,296 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5340, train loss: 1.7459086179733276
+2021-06-21 16:42:41,437 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5350, train loss: 1.773956537246704
+2021-06-21 16:42:49,566 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5360, train loss: 1.6775548458099365
+2021-06-21 16:42:57,842 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5370, train loss: 1.8202109336853027
+2021-06-21 16:43:06,139 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5380, train loss: 1.4988833665847778
+2021-06-21 16:43:14,172 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5390, train loss: 1.6317402124404907
+2021-06-21 16:43:22,117 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5400, train loss: 1.5211677551269531
+2021-06-21 16:43:30,046 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5410, train loss: 1.701902985572815
+2021-06-21 16:43:38,211 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5420, train loss: 1.444510579109192
+2021-06-21 16:43:46,206 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5430, train loss: 1.6000776290893555
+2021-06-21 16:43:54,306 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5440, train loss: 2.046924114227295
+2021-06-21 16:44:02,258 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5450, train loss: 1.5022945404052734
+2021-06-21 16:44:11,018 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5460, train loss: 1.775403618812561
+2021-06-21 16:44:19,134 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5470, train loss: 1.7399569749832153
+2021-06-21 16:44:27,342 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5480, train loss: 1.4213215112686157
+2021-06-21 16:44:35,543 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5490, train loss: 2.069474935531616
+2021-06-21 16:44:44,504 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:46:09,909 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:46:09,964 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 5500,  Train Loss: 1.6535099744796753,  Val Acc: 0.6099390060993891, Val score: 192.7532274981615, Time: 2:43:10 
+2021-06-21 16:46:18,150 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5510, train loss: 1.7872735261917114
+2021-06-21 16:46:26,414 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5520, train loss: 1.6518564224243164
+2021-06-21 16:46:34,543 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5530, train loss: 1.5374070405960083
+2021-06-21 16:46:42,729 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5540, train loss: 1.6654744148254395
+2021-06-21 16:46:50,950 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5550, train loss: 1.484791874885559
+2021-06-21 16:46:59,335 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5560, train loss: 1.7635504007339478
+2021-06-21 16:47:07,516 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5570, train loss: 1.7999062538146973
+2021-06-21 16:47:15,713 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5580, train loss: 1.8035117387771606
+2021-06-21 16:47:24,030 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5590, train loss: 1.675108551979065
+2021-06-21 16:47:32,346 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5600, train loss: 1.6863303184509277
+2021-06-21 16:47:40,486 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5610, train loss: 1.5539885759353638
+2021-06-21 16:47:48,670 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5620, train loss: 1.666109323501587
+2021-06-21 16:47:56,973 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5630, train loss: 1.7037229537963867
+2021-06-21 16:48:05,214 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5640, train loss: 1.4915289878845215
+2021-06-21 16:48:13,483 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5650, train loss: 1.5982353687286377
+2021-06-21 16:48:21,695 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5660, train loss: 1.992331862449646
+2021-06-21 16:48:30,005 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5670, train loss: 1.4552719593048096
+2021-06-21 16:48:38,306 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5680, train loss: 2.015291929244995
+2021-06-21 16:48:46,418 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5690, train loss: 2.1494643688201904
+2021-06-21 16:48:55,280 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5700, train loss: 1.804882526397705
+2021-06-21 16:49:04,202 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5710, train loss: 1.4829384088516235
+2021-06-21 16:49:12,892 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5720, train loss: 1.5428663492202759
+2021-06-21 16:49:21,728 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5730, train loss: 1.5827968120574951
+2021-06-21 16:49:29,927 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5740, train loss: 1.6136442422866821
+2021-06-21 16:49:38,260 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5750, train loss: 1.8321449756622314
+2021-06-21 16:49:46,484 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5760, train loss: 2.0448107719421387
+2021-06-21 16:49:54,996 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5770, train loss: 1.9711748361587524
+2021-06-21 16:50:03,334 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5780, train loss: 1.4848755598068237
+2021-06-21 16:50:11,652 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5790, train loss: 1.5582635402679443
+2021-06-21 16:50:19,836 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5800, train loss: 1.9848297834396362
+2021-06-21 16:50:28,214 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5810, train loss: 1.7903133630752563
+2021-06-21 16:50:36,475 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5820, train loss: 2.0529048442840576
+2021-06-21 16:50:44,750 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5830, train loss: 1.651875615119934
+2021-06-21 16:50:53,035 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5840, train loss: 1.693701148033142
+2021-06-21 16:51:01,226 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5850, train loss: 1.7408547401428223
+2021-06-21 16:51:09,389 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5860, train loss: 1.583971381187439
+2021-06-21 16:51:17,571 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5870, train loss: 1.548126220703125
+2021-06-21 16:51:25,871 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5880, train loss: 1.8880939483642578
+2021-06-21 16:51:34,139 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5890, train loss: 1.536283016204834
+2021-06-21 16:51:42,508 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5900, train loss: 1.7750612497329712
+2021-06-21 16:51:46,841 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:75] - INFO: Epoch [3/3]
+2021-06-21 16:51:50,180 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5910, train loss: 1.8549318313598633
+2021-06-21 16:51:58,333 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5920, train loss: 1.6076442003250122
+2021-06-21 16:52:06,527 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5930, train loss: 1.7596641778945923
+2021-06-21 16:52:14,705 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5940, train loss: 1.552862286567688
+2021-06-21 16:52:22,904 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5950, train loss: 1.41647469997406
+2021-06-21 16:52:31,115 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5960, train loss: 1.7261179685592651
+2021-06-21 16:52:39,424 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5970, train loss: 1.753477692604065
+2021-06-21 16:52:47,690 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5980, train loss: 1.5811021327972412
+2021-06-21 16:52:56,063 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 5990, train loss: 1.7958754301071167
+2021-06-21 16:53:05,038 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 16:54:30,391 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 16:54:30,444 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 6000,  Train Loss: 1.6877087354660034,  Val Acc: 0.6699330066993292, Val score: 210.43386584423524, Time: 2:51:30 *
+2021-06-21 16:54:30,445 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 16:54:30,446 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:08:46,051 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:08:46,528 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 6000, test Acc: 0.6479352064793575, test score: 2019.8844732913155, Time: 2:51:30 
+2021-06-21 17:08:55,312 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6010, train loss: 1.4477177858352661
+2021-06-21 17:09:04,031 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6020, train loss: 1.6717249155044556
+2021-06-21 17:09:12,690 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6030, train loss: 1.7077934741973877
+2021-06-21 17:09:21,427 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6040, train loss: 1.8855661153793335
+2021-06-21 17:09:30,095 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6050, train loss: 1.649398684501648
+2021-06-21 17:09:38,815 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6060, train loss: 1.6754262447357178
+2021-06-21 17:09:47,339 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6070, train loss: 1.4369179010391235
+2021-06-21 17:09:55,859 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6080, train loss: 1.6683331727981567
+2021-06-21 17:10:04,441 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6090, train loss: 1.6386642456054688
+2021-06-21 17:10:13,070 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6100, train loss: 1.3524234294891357
+2021-06-21 17:10:21,638 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6110, train loss: 1.5226300954818726
+2021-06-21 17:10:29,760 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6120, train loss: 1.6673136949539185
+2021-06-21 17:10:37,813 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6130, train loss: 1.564195156097412
+2021-06-21 17:10:45,984 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6140, train loss: 1.6243537664413452
+2021-06-21 17:10:54,254 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6150, train loss: 1.6240023374557495
+2021-06-21 17:11:02,360 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6160, train loss: 1.604783058166504
+2021-06-21 17:11:10,571 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6170, train loss: 1.9492061138153076
+2021-06-21 17:11:18,787 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6180, train loss: 1.666938066482544
+2021-06-21 17:11:26,963 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6190, train loss: 1.6867791414260864
+2021-06-21 17:11:35,159 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6200, train loss: 1.5945444107055664
+2021-06-21 17:11:43,323 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6210, train loss: 1.8909530639648438
+2021-06-21 17:11:51,420 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6220, train loss: 1.6893304586410522
+2021-06-21 17:11:59,508 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6230, train loss: 1.6603672504425049
+2021-06-21 17:12:07,562 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6240, train loss: 1.8283079862594604
+2021-06-21 17:12:15,684 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6250, train loss: 1.5336636304855347
+2021-06-21 17:12:23,930 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6260, train loss: 2.165097951889038
+2021-06-21 17:12:31,998 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6270, train loss: 1.5027217864990234
+2021-06-21 17:12:40,205 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6280, train loss: 1.3833924531936646
+2021-06-21 17:12:48,261 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6290, train loss: 1.5601967573165894
+2021-06-21 17:12:56,445 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6300, train loss: 1.5336922407150269
+2021-06-21 17:13:04,642 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6310, train loss: 1.765048861503601
+2021-06-21 17:13:12,828 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6320, train loss: 2.09118390083313
+2021-06-21 17:13:21,098 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6330, train loss: 1.6594690084457397
+2021-06-21 17:13:29,222 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6340, train loss: 1.5012112855911255
+2021-06-21 17:13:37,436 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6350, train loss: 1.4530088901519775
+2021-06-21 17:13:45,500 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6360, train loss: 1.6803770065307617
+2021-06-21 17:13:53,618 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6370, train loss: 1.687007188796997
+2021-06-21 17:14:01,674 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6380, train loss: 1.3387655019760132
+2021-06-21 17:14:09,755 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6390, train loss: 1.4610047340393066
+2021-06-21 17:14:17,732 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6400, train loss: 1.4591904878616333
+2021-06-21 17:14:25,932 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6410, train loss: 1.620171308517456
+2021-06-21 17:14:34,105 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6420, train loss: 1.6986422538757324
+2021-06-21 17:14:42,114 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6430, train loss: 1.6287837028503418
+2021-06-21 17:14:50,301 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6440, train loss: 1.6602115631103516
+2021-06-21 17:14:58,297 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6450, train loss: 1.5330768823623657
+2021-06-21 17:15:06,456 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6460, train loss: 1.4751101732254028
+2021-06-21 17:15:14,489 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6470, train loss: 1.517025351524353
+2021-06-21 17:15:22,722 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6480, train loss: 1.5813950300216675
+2021-06-21 17:15:30,885 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6490, train loss: 1.7549388408660889
+2021-06-21 17:15:39,817 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:17:05,105 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:17:05,167 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 6500,  Train Loss: 1.6469858884811401,  Val Acc: 0.7049295070492946, Val score: 218.04786996787283, Time: 3:14:05 *
+2021-06-21 17:17:13,423 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6510, train loss: 1.3782434463500977
+2021-06-21 17:17:21,611 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6520, train loss: 1.795568823814392
+2021-06-21 17:17:29,787 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6530, train loss: 1.978169560432434
+2021-06-21 17:17:37,895 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6540, train loss: 1.8060716390609741
+2021-06-21 17:17:46,001 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6550, train loss: 1.6185474395751953
+2021-06-21 17:17:54,023 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6560, train loss: 1.54993736743927
+2021-06-21 17:18:02,242 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6570, train loss: 1.644087791442871
+2021-06-21 17:18:10,354 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6580, train loss: 1.7141636610031128
+2021-06-21 17:18:18,415 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6590, train loss: 1.7325139045715332
+2021-06-21 17:18:26,593 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6600, train loss: 1.5374935865402222
+2021-06-21 17:18:34,658 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6610, train loss: 1.4278411865234375
+2021-06-21 17:18:42,789 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6620, train loss: 1.4705907106399536
+2021-06-21 17:18:50,973 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6630, train loss: 1.7830090522766113
+2021-06-21 17:18:59,118 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6640, train loss: 1.7134345769882202
+2021-06-21 17:19:07,173 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6650, train loss: 1.6256041526794434
+2021-06-21 17:19:15,339 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6660, train loss: 1.5581135749816895
+2021-06-21 17:19:23,364 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6670, train loss: 1.6074650287628174
+2021-06-21 17:19:31,511 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6680, train loss: 1.516674280166626
+2021-06-21 17:19:39,670 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6690, train loss: 1.6317256689071655
+2021-06-21 17:19:47,715 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6700, train loss: 1.5165997743606567
+2021-06-21 17:19:55,889 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6710, train loss: 1.417567253112793
+2021-06-21 17:20:04,060 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6720, train loss: 1.2649164199829102
+2021-06-21 17:20:12,282 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6730, train loss: 1.614372730255127
+2021-06-21 17:20:20,481 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6740, train loss: 1.6037545204162598
+2021-06-21 17:20:28,647 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6750, train loss: 1.7895880937576294
+2021-06-21 17:20:36,649 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6760, train loss: 1.7949062585830688
+2021-06-21 17:20:44,666 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6770, train loss: 1.4550446271896362
+2021-06-21 17:20:52,765 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6780, train loss: 2.0289292335510254
+2021-06-21 17:21:00,810 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6790, train loss: 1.6418602466583252
+2021-06-21 17:21:08,996 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6800, train loss: 2.038332939147949
+2021-06-21 17:21:17,164 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6810, train loss: 1.6137518882751465
+2021-06-21 17:21:25,245 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6820, train loss: 1.6231017112731934
+2021-06-21 17:21:33,383 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6830, train loss: 1.5670278072357178
+2021-06-21 17:21:41,569 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6840, train loss: 1.6932852268218994
+2021-06-21 17:21:49,733 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6850, train loss: 1.5631120204925537
+2021-06-21 17:21:57,771 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6860, train loss: 1.6497089862823486
+2021-06-21 17:22:05,987 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6870, train loss: 1.509441614151001
+2021-06-21 17:22:14,131 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6880, train loss: 1.705939531326294
+2021-06-21 17:22:22,370 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6890, train loss: 1.951710820198059
+2021-06-21 17:22:30,540 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6900, train loss: 1.6281437873840332
+2021-06-21 17:22:38,762 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6910, train loss: 1.891385555267334
+2021-06-21 17:22:46,892 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6920, train loss: 1.6885836124420166
+2021-06-21 17:22:55,153 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6930, train loss: 1.3607827425003052
+2021-06-21 17:23:03,285 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6940, train loss: 2.195427417755127
+2021-06-21 17:23:11,477 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6950, train loss: 1.7609922885894775
+2021-06-21 17:23:19,688 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6960, train loss: 1.9754338264465332
+2021-06-21 17:23:27,872 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6970, train loss: 1.7910603284835815
+2021-06-21 17:23:36,062 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6980, train loss: 1.9133015871047974
+2021-06-21 17:23:44,272 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 6990, train loss: 1.4058036804199219
+2021-06-21 17:23:53,205 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:25:18,486 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:25:18,537 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 7000,  Train Loss: 1.6353992223739624,  Val Acc: 0.5899410058994092, Val score: 192.04363963212185, Time: 3:22:18 
+2021-06-21 17:25:18,538 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 17:25:18,539 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:39:33,772 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:39:34,928 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 7000, test Acc: 0.6469353064693586, test score: 2020.0225123417335, Time: 3:22:18 
+2021-06-21 17:39:43,354 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7010, train loss: 1.536754846572876
+2021-06-21 17:39:51,635 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7020, train loss: 1.468113660812378
+2021-06-21 17:39:59,767 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7030, train loss: 1.46819007396698
+2021-06-21 17:40:08,001 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7040, train loss: 1.2687792778015137
+2021-06-21 17:40:16,133 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7050, train loss: 1.5471590757369995
+2021-06-21 17:40:24,242 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7060, train loss: 1.6050432920455933
+2021-06-21 17:40:32,334 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7070, train loss: 1.5936046838760376
+2021-06-21 17:40:40,542 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7080, train loss: 1.5976134538650513
+2021-06-21 17:40:48,700 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7090, train loss: 1.4301364421844482
+2021-06-21 17:40:56,978 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7100, train loss: 2.0665576457977295
+2021-06-21 17:41:04,986 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7110, train loss: 1.6826739311218262
+2021-06-21 17:41:13,085 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7120, train loss: 1.5803312063217163
+2021-06-21 17:41:21,325 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7130, train loss: 1.462128758430481
+2021-06-21 17:41:29,499 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7140, train loss: 1.6912428140640259
+2021-06-21 17:41:37,651 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7150, train loss: 1.684914231300354
+2021-06-21 17:41:45,850 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7160, train loss: 1.2842040061950684
+2021-06-21 17:41:54,111 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7170, train loss: 1.6345027685165405
+2021-06-21 17:42:02,178 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7180, train loss: 1.651458501815796
+2021-06-21 17:42:10,209 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7190, train loss: 1.7296479940414429
+2021-06-21 17:42:18,425 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7200, train loss: 1.6287130117416382
+2021-06-21 17:42:26,628 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7210, train loss: 1.5541740655899048
+2021-06-21 17:42:34,795 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7220, train loss: 1.521957516670227
+2021-06-21 17:42:43,010 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7230, train loss: 1.6370490789413452
+2021-06-21 17:42:51,279 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7240, train loss: 1.8464592695236206
+2021-06-21 17:42:59,348 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7250, train loss: 1.5951673984527588
+2021-06-21 17:43:07,653 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7260, train loss: 1.5364563465118408
+2021-06-21 17:43:15,759 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7270, train loss: 1.6575678586959839
+2021-06-21 17:43:24,003 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7280, train loss: 1.486459732055664
+2021-06-21 17:43:32,160 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7290, train loss: 1.60916006565094
+2021-06-21 17:43:40,341 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7300, train loss: 1.5054787397384644
+2021-06-21 17:43:48,483 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7310, train loss: 1.5141208171844482
+2021-06-21 17:43:56,730 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7320, train loss: 1.3090356588363647
+2021-06-21 17:44:04,973 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7330, train loss: 1.5325063467025757
+2021-06-21 17:44:13,097 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7340, train loss: 1.7677135467529297
+2021-06-21 17:44:21,320 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7350, train loss: 1.5076903104782104
+2021-06-21 17:44:29,501 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7360, train loss: 1.5636554956436157
+2021-06-21 17:44:37,681 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7370, train loss: 1.6480097770690918
+2021-06-21 17:44:45,883 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7380, train loss: 1.57978093624115
+2021-06-21 17:44:54,059 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7390, train loss: 1.7023983001708984
+2021-06-21 17:45:02,269 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7400, train loss: 1.6864217519760132
+2021-06-21 17:45:10,531 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7410, train loss: 1.618554711341858
+2021-06-21 17:45:18,659 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7420, train loss: 1.4643341302871704
+2021-06-21 17:45:27,113 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7430, train loss: 1.6523720026016235
+2021-06-21 17:45:35,266 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7440, train loss: 1.8313416242599487
+2021-06-21 17:45:43,429 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7450, train loss: 1.5543241500854492
+2021-06-21 17:45:51,680 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7460, train loss: 1.5941948890686035
+2021-06-21 17:46:00,013 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7470, train loss: 1.628310203552246
+2021-06-21 17:46:08,505 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7480, train loss: 1.2262040376663208
+2021-06-21 17:46:17,192 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7490, train loss: 1.519677996635437
+2021-06-21 17:46:26,786 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:47:52,124 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:47:52,179 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 7500,  Train Loss: 1.4271985292434692,  Val Acc: 0.624937506249374, Val score: 197.1991693391585, Time: 3:44:52 
+2021-06-21 17:48:00,486 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7510, train loss: 1.6152981519699097
+2021-06-21 17:48:08,674 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7520, train loss: 1.8340314626693726
+2021-06-21 17:48:16,836 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7530, train loss: 1.5090217590332031
+2021-06-21 17:48:25,032 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7540, train loss: 1.7287418842315674
+2021-06-21 17:48:33,223 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7550, train loss: 2.1828246116638184
+2021-06-21 17:48:41,515 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7560, train loss: 2.018843650817871
+2021-06-21 17:48:49,768 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7570, train loss: 1.600324034690857
+2021-06-21 17:48:57,996 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7580, train loss: 1.4890000820159912
+2021-06-21 17:49:06,253 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7590, train loss: 1.5860329866409302
+2021-06-21 17:49:14,568 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7600, train loss: 1.72162663936615
+2021-06-21 17:49:22,824 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7610, train loss: 1.79822838306427
+2021-06-21 17:49:31,035 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7620, train loss: 1.802161693572998
+2021-06-21 17:49:39,188 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7630, train loss: 1.8687328100204468
+2021-06-21 17:49:47,362 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7640, train loss: 1.3929860591888428
+2021-06-21 17:49:55,769 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7650, train loss: 1.539217233657837
+2021-06-21 17:50:03,978 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7660, train loss: 1.7761552333831787
+2021-06-21 17:50:12,393 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7670, train loss: 1.666204810142517
+2021-06-21 17:50:20,593 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7680, train loss: 1.6181880235671997
+2021-06-21 17:50:28,951 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7690, train loss: 1.5416386127471924
+2021-06-21 17:50:37,161 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7700, train loss: 1.8626222610473633
+2021-06-21 17:50:45,486 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7710, train loss: 1.4273841381072998
+2021-06-21 17:50:53,804 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7720, train loss: 1.987245798110962
+2021-06-21 17:51:02,048 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7730, train loss: 1.8295649290084839
+2021-06-21 17:51:10,469 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7740, train loss: 1.465988039970398
+2021-06-21 17:51:18,739 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7750, train loss: 1.548829197883606
+2021-06-21 17:51:27,063 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7760, train loss: 1.5754412412643433
+2021-06-21 17:51:35,317 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7770, train loss: 1.8932397365570068
+2021-06-21 17:51:43,603 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7780, train loss: 2.0291519165039062
+2021-06-21 17:51:51,785 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7790, train loss: 1.3561091423034668
+2021-06-21 17:52:00,016 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7800, train loss: 1.5953081846237183
+2021-06-21 17:52:08,275 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7810, train loss: 1.8237028121948242
+2021-06-21 17:52:16,462 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7820, train loss: 1.6077144145965576
+2021-06-21 17:52:24,794 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7830, train loss: 1.5604249238967896
+2021-06-21 17:52:33,047 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7840, train loss: 1.5356900691986084
+2021-06-21 17:52:41,450 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7850, train loss: 1.6888971328735352
+2021-06-21 17:52:49,660 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7860, train loss: 1.5847837924957275
+2021-06-21 17:52:57,990 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7870, train loss: 1.6381324529647827
+2021-06-21 17:53:06,272 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7880, train loss: 1.6365432739257812
+2021-06-21 17:53:14,611 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7890, train loss: 1.6715185642242432
+2021-06-21 17:53:22,832 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7900, train loss: 1.9488980770111084
+2021-06-21 17:53:31,016 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7910, train loss: 1.5433605909347534
+2021-06-21 17:53:39,206 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7920, train loss: 1.5105493068695068
+2021-06-21 17:53:47,392 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7930, train loss: 1.5128504037857056
+2021-06-21 17:53:55,753 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7940, train loss: 1.580802083015442
+2021-06-21 17:54:04,021 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7950, train loss: 1.5040600299835205
+2021-06-21 17:54:12,443 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7960, train loss: 1.7065587043762207
+2021-06-21 17:54:20,928 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7970, train loss: 2.1377336978912354
+2021-06-21 17:54:29,351 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7980, train loss: 1.7926288843154907
+2021-06-21 17:54:37,748 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 7990, train loss: 1.710290551185608
+2021-06-21 17:54:46,756 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 17:56:12,082 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 17:56:12,136 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 8000,  Train Loss: 1.731364369392395,  Val Acc: 0.624937506249374, Val score: 188.445268805105, Time: 3:53:12 
+2021-06-21 17:56:12,137 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: testing 
+2021-06-21 17:56:12,138 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 18:10:27,329 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 18:10:27,797 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:116] - INFO: Iter: 8000, test Acc: 0.6489351064893566, test score: 2026.3159241880305, Time: 3:53:12 
+2021-06-21 18:10:36,084 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8010, train loss: 1.4876004457473755
+2021-06-21 18:10:44,270 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8020, train loss: 1.633309006690979
+2021-06-21 18:10:52,505 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8030, train loss: 1.322645664215088
+2021-06-21 18:11:00,630 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8040, train loss: 1.573838710784912
+2021-06-21 18:11:08,916 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8050, train loss: 1.8592358827590942
+2021-06-21 18:11:17,008 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8060, train loss: 1.4140281677246094
+2021-06-21 18:11:25,135 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8070, train loss: 1.8541665077209473
+2021-06-21 18:11:33,195 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8080, train loss: 1.360550880432129
+2021-06-21 18:11:41,387 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8090, train loss: 1.627589225769043
+2021-06-21 18:11:49,591 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8100, train loss: 1.6044036149978638
+2021-06-21 18:11:57,774 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8110, train loss: 1.557949185371399
+2021-06-21 18:12:05,947 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8120, train loss: 1.511338710784912
+2021-06-21 18:12:14,154 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8130, train loss: 1.47623610496521
+2021-06-21 18:12:22,473 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8140, train loss: 1.6604998111724854
+2021-06-21 18:12:30,581 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8150, train loss: 1.7985605001449585
+2021-06-21 18:12:38,820 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8160, train loss: 1.4160100221633911
+2021-06-21 18:12:46,988 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8170, train loss: 1.4499620199203491
+2021-06-21 18:12:55,117 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8180, train loss: 1.3971248865127563
+2021-06-21 18:13:03,306 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8190, train loss: 2.061642646789551
+2021-06-21 18:13:11,469 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8200, train loss: 1.823529601097107
+2021-06-21 18:13:19,489 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8210, train loss: 1.6760716438293457
+2021-06-21 18:13:27,682 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8220, train loss: 1.4163002967834473
+2021-06-21 18:13:35,900 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8230, train loss: 1.5094094276428223
+2021-06-21 18:13:44,083 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8240, train loss: 1.5172497034072876
+2021-06-21 18:13:52,301 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8250, train loss: 1.8762080669403076
+2021-06-21 18:14:00,461 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8260, train loss: 1.7148246765136719
+2021-06-21 18:14:08,754 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8270, train loss: 1.5690553188323975
+2021-06-21 18:14:16,838 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8280, train loss: 1.806067943572998
+2021-06-21 18:14:25,116 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8290, train loss: 1.5901633501052856
+2021-06-21 18:14:33,244 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8300, train loss: 1.5244054794311523
+2021-06-21 18:14:41,421 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8310, train loss: 1.610499620437622
+2021-06-21 18:14:49,616 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8320, train loss: 1.7649060487747192
+2021-06-21 18:14:57,814 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8330, train loss: 1.5525108575820923
+2021-06-21 18:15:06,023 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8340, train loss: 1.6880652904510498
+2021-06-21 18:15:14,194 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8350, train loss: 1.3535809516906738
+2021-06-21 18:15:22,428 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8360, train loss: 1.4787912368774414
+2021-06-21 18:15:30,573 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8370, train loss: 1.4175835847854614
+2021-06-21 18:15:38,829 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8380, train loss: 2.04803466796875
+2021-06-21 18:15:46,975 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8390, train loss: 1.7735399007797241
+2021-06-21 18:15:55,187 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8400, train loss: 1.4218900203704834
+2021-06-21 18:16:03,693 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8410, train loss: 1.391003966331482
+2021-06-21 18:16:11,964 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8420, train loss: 1.5813590288162231
+2021-06-21 18:16:20,150 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8430, train loss: 1.4714889526367188
+2021-06-21 18:16:28,375 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8440, train loss: 1.4489845037460327
+2021-06-21 18:16:36,768 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8450, train loss: 1.7952911853790283
+2021-06-21 18:16:44,935 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8460, train loss: 1.7472758293151855
+2021-06-21 18:16:53,183 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8470, train loss: 1.876158356666565
+2021-06-21 18:17:01,311 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8480, train loss: 1.5364744663238525
+2021-06-21 18:17:09,553 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8490, train loss: 1.3027812242507935
+2021-06-21 18:17:18,471 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 18:18:43,884 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 18:18:43,938 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:109] - INFO: Iter: 8500,  Train Loss: 1.6519553661346436,  Val Acc: 0.649935006499349, Val score: 205.84524199322453, Time: 4:15:44 
+2021-06-21 18:18:52,299 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8510, train loss: 1.4831169843673706
+2021-06-21 18:19:00,605 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8520, train loss: 1.520292043685913
+2021-06-21 18:19:08,996 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8530, train loss: 1.777631402015686
+2021-06-21 18:19:17,299 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8540, train loss: 1.5328439474105835
+2021-06-21 18:19:25,776 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8550, train loss: 1.6493771076202393
+2021-06-21 18:19:34,011 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8560, train loss: 1.7064138650894165
+2021-06-21 18:19:42,376 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8570, train loss: 1.5879958868026733
+2021-06-21 18:19:50,622 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8580, train loss: 1.6892961263656616
+2021-06-21 18:19:58,903 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8590, train loss: 1.4739986658096313
+2021-06-21 18:20:07,478 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8600, train loss: 1.5847641229629517
+2021-06-21 18:20:16,461 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8610, train loss: 1.8088480234146118
+2021-06-21 18:20:25,654 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8620, train loss: 1.7137912511825562
+2021-06-21 18:20:34,701 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8630, train loss: 1.712166428565979
+2021-06-21 18:20:43,755 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8640, train loss: 1.6013250350952148
+2021-06-21 18:20:52,739 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8650, train loss: 1.7498490810394287
+2021-06-21 18:21:01,734 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8660, train loss: 1.6557633876800537
+2021-06-21 18:21:10,702 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8670, train loss: 1.5901072025299072
+2021-06-21 18:21:19,568 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8680, train loss: 1.4745078086853027
+2021-06-21 18:21:28,566 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8690, train loss: 1.6724066734313965
+2021-06-21 18:21:37,588 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8700, train loss: 1.5723295211791992
+2021-06-21 18:21:45,991 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8710, train loss: 1.6756343841552734
+2021-06-21 18:21:54,194 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8720, train loss: 1.4474316835403442
+2021-06-21 18:22:02,390 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8730, train loss: 1.4061871767044067
+2021-06-21 18:22:10,850 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8740, train loss: 1.735308289527893
+2021-06-21 18:22:19,195 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8750, train loss: 1.9148136377334595
+2021-06-21 18:22:27,519 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8760, train loss: 1.8007915019989014
+2021-06-21 18:22:35,805 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8770, train loss: 1.4721993207931519
+2021-06-21 18:22:44,177 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8780, train loss: 1.834419846534729
+2021-06-21 18:22:52,411 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8790, train loss: 1.4734151363372803
+2021-06-21 18:23:00,669 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8800, train loss: 1.419045329093933
+2021-06-21 18:23:08,995 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8810, train loss: 1.4658141136169434
+2021-06-21 18:23:17,140 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8820, train loss: 1.457316517829895
+2021-06-21 18:23:25,383 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8830, train loss: 1.622862696647644
+2021-06-21 18:23:33,578 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8840, train loss: 1.4206626415252686
+2021-06-21 18:23:41,972 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:96] - INFO: total_batch: 8850, train loss: 2.17885160446167
+2021-06-21 18:23:48,836 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:139] - INFO: model evaluating
+2021-06-21 18:38:03,191 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:157] - INFO: computing hitn
+2021-06-21 18:38:03,668 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:131] - INFO: test_acc: (0.6529347065293526, 2028.8669100734007)

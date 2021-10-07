@@ -1,0 +1,43 @@
+2021-09-29 22:07:10,630 - run.py[line:50] - INFO: exp params
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: device: cuda:2
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: debug_short_set: 3000
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: model: bert_mean_pool
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: dataset: CHIP-STS
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: data_method: CHIP-STS_pos_only
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: train_method: cons
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: eval_method: auc
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: bert_path: /home/users/liuhongli/Models/prev_trained_model/roberta_wwm_ext
+2021-09-29 22:07:10,631 - run.py[line:52] - INFO: log_name: CHIP_STS_ROBERTA_WWM_F1_AUC_EP20
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: save_path: /home/users/liuhongli/Models/prev_trained_model/roberta_wwm_sts_auc/
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: dev_step: 20
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: dev_rate: 1.0
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: test_step: 1000000
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: require_improvement: 1000
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: num_epochs: 20
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: batch_size: 96
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: pad_size: 32
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: hidden_size: 768
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: hitn: 10
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: output_size: 100
+2021-09-29 22:07:10,632 - run.py[line:52] - INFO: learning_rate: 2e-05
+2021-09-29 22:07:10,633 - run.py[line:52] - INFO: margin: 0.1
+2021-09-29 22:07:10,633 - run.py[line:52] - INFO: gama: 0.1
+2021-09-29 22:07:10,633 - run.py[line:52] - INFO: seed: 1
+2021-09-29 22:07:10,644 - run.py[line:71] - INFO: Loading data...
+2021-09-29 22:07:19,613 - run.py[line:81] - INFO: Time usage:0:00:09
+2021-09-29 22:07:33,955 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:77] - INFO: Epoch [1/20]
+2021-09-29 22:08:23,253 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 10, train loss: 3.1665802001953125
+2021-09-29 22:09:23,001 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 20,  Train Loss: 1.311545491218567,  Val f1: 0.7377131394182547, Val auc: 0.8284694362004452, Time: 0:01:49 *
+2021-09-29 22:10:14,275 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 30, train loss: 0.9777138233184814
+2021-09-29 22:11:17,757 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 40,  Train Loss: 0.7026805281639099,  Val f1: 0.7668004012036109, Val auc: 0.865456055045665, Time: 0:03:44 *
+2021-09-29 22:12:10,003 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 50, train loss: 0.6262566447257996
+2021-09-29 22:13:11,958 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 60,  Train Loss: 0.6104992032051086,  Val f1: 0.7863590772316951, Val auc: 0.8865615684874467, Time: 0:05:38 *
+2021-09-29 22:14:03,804 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 70, train loss: 0.5659396052360535
+2021-09-29 22:15:04,561 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 80,  Train Loss: 0.610081136226654,  Val f1: 0.8069207622868605, Val auc: 0.8978811609051173, Time: 0:07:31 *
+2021-09-29 22:15:20,753 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:77] - INFO: Epoch [2/20]
+2021-09-29 22:15:52,909 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 90, train loss: 0.5840497016906738
+2021-09-29 22:16:53,109 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 100,  Train Loss: 0.6579930186271667,  Val f1: 0.8049147442326982, Val auc: 0.8978746607084863, Time: 0:09:19 
+2021-09-29 22:17:43,748 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 110, train loss: 0.4343911409378052
+2021-09-29 22:18:43,761 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 120,  Train Loss: 0.34071484208106995,  Val f1: 0.8109327983951855, Val auc: 0.9033198254247191, Time: 0:11:10 *
+2021-09-29 22:19:33,957 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:118] - INFO: total_batch: 130, train loss: 0.43311265110969543
+2021-09-29 22:20:31,303 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:133] - INFO: Iter: 140,  Train Loss: 0.3287964463233948,  Val f1: 0.8049147442326982, Val auc: 0.8998297198490255, Time: 0:12:57 

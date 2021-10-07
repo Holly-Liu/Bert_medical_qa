@@ -1,0 +1,7 @@
+2021-06-19 19:03:06,862 - run.py[line:53] - INFO: Loading data...
+2021-06-19 19:05:26,131 - run.py[line:59] - INFO: Time usage:0:02:19
+2021-06-19 19:05:30,674 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:52] - INFO: Epoch [1/10]
+2021-06-19 19:06:33,335 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: model evaluating
+2021-06-19 21:30:07,262 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:130] - INFO: computing hitn
+2021-06-19 21:30:07,701 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:78] - INFO: Iter: 100,  Train Loss: 0.3767469525337219,  Val Acc: 0.024997500249975015, Val score: 222.93311334420247, Time: 2:24:37 *
+2021-06-19 21:31:11,526 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:112] - INFO: model evaluating

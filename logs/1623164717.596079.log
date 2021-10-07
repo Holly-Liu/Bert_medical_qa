@@ -1,0 +1,4 @@
+2021-06-08 23:05:17,619 - run.py[line:48] - INFO: Loading data...
+2021-06-08 23:07:37,742 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:52] - INFO: Epoch [1/1]
+2021-06-08 23:07:38,404 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:66] - INFO: batch loss: 0.06294643878936768
+2021-06-08 23:07:38,405 - /home/users/liuhongli/Models/Bert-Chinese-Text-Classification-Pytorch/train_eval.py[line:113] - INFO: model evaluating

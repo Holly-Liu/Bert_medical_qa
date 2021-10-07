@@ -1,0 +1,405 @@
+model bert_medical_qa
+Loading data...
+Reading file cost time: 0:00:01
+Tokenizing cost time: 0:02:08
+Join table cost time: 0:00:02
+Zip and transfer to list cost time: 0:00:03
+Time usage: 0:02:14
+Epoch [1/3]
+batch loss: 0.06476707011461258
+Iter:      0,  Train Loss: 0.065,  Val Acc:  9.95%,  Time: 0:13:23 
+batch loss: 0.02560337260365486
+Iter:    100,  Train Loss: 0.026,  Val Acc: 25.40%,  Time: 0:27:55 
+batch loss: 0.025254836305975914
+Iter:    200,  Train Loss: 0.025,  Val Acc: 37.25%,  Time: 0:42:30 
+batch loss: 0.01448335312306881
+Iter:    300,  Train Loss: 0.014,  Val Acc: 42.85%,  Time: 0:57:05 
+batch loss: 0.007125058211386204
+Iter:    400,  Train Loss: 0.0071,  Val Acc: 45.60%,  Time: 1:11:38 
+batch loss: 0.014031520113348961
+Iter:    500,  Train Loss: 0.014,  Val Acc: 48.00%,  Time: 1:26:12 
+batch loss: 0.009326675906777382
+Iter:    600,  Train Loss: 0.0093,  Val Acc: 48.75%,  Time: 1:40:47 
+batch loss: 0.003378705121576786
+Iter:    700,  Train Loss: 0.0034,  Val Acc: 50.49%,  Time: 1:55:21 
+batch loss: 0.005242161452770233
+Iter:    800,  Train Loss: 0.0052,  Val Acc: 50.79%,  Time: 2:09:54 
+batch loss: 0.006043108180165291
+Iter:    900,  Train Loss: 0.006,  Val Acc: 50.44%,  Time: 2:24:32 
+batch loss: 0.0017017615027725697
+Iter:   1000,  Train Loss: 0.0017,  Val Acc: 51.59%,  Time: 2:39:14 
+batch loss: 0.0099705271422863
+Iter:   1100,  Train Loss:  0.01,  Val Acc: 53.79%,  Time: 2:53:51 
+batch loss: 0.008329511620104313
+Iter:   1200,  Train Loss: 0.0083,  Val Acc: 54.69%,  Time: 3:08:28 
+batch loss: 0.008770983666181564
+Iter:   1300,  Train Loss: 0.0088,  Val Acc: 54.69%,  Time: 3:23:06 
+batch loss: 0.0021947179920971394
+Iter:   1400,  Train Loss: 0.0022,  Val Acc: 55.44%,  Time: 3:37:45 
+batch loss: 0.006066934205591679
+Iter:   1500,  Train Loss: 0.0061,  Val Acc: 54.19%,  Time: 3:52:25 
+batch loss: 0.0046533201821148396
+Iter:   1600,  Train Loss: 0.0047,  Val Acc: 55.34%,  Time: 4:07:04 
+batch loss: 0.006465096492320299
+Iter:   1700,  Train Loss: 0.0065,  Val Acc: 55.79%,  Time: 4:21:42 
+batch loss: 0.009860275313258171
+Iter:   1800,  Train Loss: 0.0099,  Val Acc: 55.44%,  Time: 4:36:21 
+batch loss: 0.005449395626783371
+Iter:   1900,  Train Loss: 0.0054,  Val Acc: 55.44%,  Time: 4:51:02 
+batch loss: 0.010106850415468216
+Iter:   2000,  Train Loss:  0.01,  Val Acc: 54.99%,  Time: 5:05:40 
+batch loss: 0.005568103864789009
+Iter:   2100,  Train Loss: 0.0056,  Val Acc: 56.09%,  Time: 5:20:17 
+batch loss: 0.0013378147268667817
+Iter:   2200,  Train Loss: 0.0013,  Val Acc: 55.44%,  Time: 5:34:53 
+batch loss: 0.001851308043114841
+Iter:   2300,  Train Loss: 0.0019,  Val Acc: 55.94%,  Time: 5:49:31 
+batch loss: 0.00657135434448719
+Iter:   2400,  Train Loss: 0.0066,  Val Acc: 56.74%,  Time: 6:04:11 
+batch loss: 0.0029419083148241043
+Iter:   2500,  Train Loss: 0.0029,  Val Acc: 54.49%,  Time: 6:18:48 
+batch loss: 0.007256525103002787
+Iter:   2600,  Train Loss: 0.0073,  Val Acc: 53.74%,  Time: 6:33:25 
+batch loss: 0.004994101822376251
+Iter:   2700,  Train Loss: 0.005,  Val Acc: 54.14%,  Time: 6:48:02 
+batch loss: 0.0
+Iter:   2800,  Train Loss:   0.0,  Val Acc: 53.39%,  Time: 7:02:41 
+batch loss: 0.00044587033335119486
+Iter:   2900,  Train Loss: 0.00045,  Val Acc: 53.99%,  Time: 7:17:19 
+batch loss: 0.012761035934090614
+Iter:   3000,  Train Loss: 0.013,  Val Acc: 46.00%,  Time: 7:31:56 
+batch loss: 0.010717354714870453
+Iter:   3100,  Train Loss: 0.011,  Val Acc: 48.45%,  Time: 7:46:32 
+batch loss: 0.008525289595127106
+Iter:   3200,  Train Loss: 0.0085,  Val Acc: 50.99%,  Time: 8:01:08 
+batch loss: 0.00537152960896492
+Iter:   3300,  Train Loss: 0.0054,  Val Acc: 51.39%,  Time: 8:15:48 
+batch loss: 0.003280725795775652
+Iter:   3400,  Train Loss: 0.0033,  Val Acc: 49.85%,  Time: 8:30:27 
+batch loss: 0.009752955287694931
+Iter:   3500,  Train Loss: 0.0098,  Val Acc: 51.14%,  Time: 8:45:04 
+batch loss: 0.004057655576616526
+Iter:   3600,  Train Loss: 0.0041,  Val Acc: 51.89%,  Time: 8:59:41 
+batch loss: 0.0011324823135510087
+Iter:   3700,  Train Loss: 0.0011,  Val Acc: 52.94%,  Time: 9:14:19 
+batch loss: 0.002800864167511463
+Iter:   3800,  Train Loss: 0.0028,  Val Acc: 52.24%,  Time: 9:28:58 
+batch loss: 0.0028343056328594685
+Iter:   3900,  Train Loss: 0.0028,  Val Acc: 52.39%,  Time: 9:43:34 
+batch loss: 0.005303066689521074
+Iter:   4000,  Train Loss: 0.0053,  Val Acc: 52.69%,  Time: 9:58:12 
+batch loss: 0.0032012583687901497
+Iter:   4100,  Train Loss: 0.0032,  Val Acc: 54.39%,  Time: 10:12:50 
+batch loss: 0.003991371486335993
+Iter:   4200,  Train Loss: 0.004,  Val Acc: 53.99%,  Time: 10:27:29 
+batch loss: 0.0004852872807532549
+Iter:   4300,  Train Loss: 0.00049,  Val Acc: 53.59%,  Time: 10:42:08 
+batch loss: 0.016000710427761078
+Iter:   4400,  Train Loss: 0.016,  Val Acc: 52.14%,  Time: 10:56:44 
+batch loss: 0.004447181709110737
+Iter:   4500,  Train Loss: 0.0044,  Val Acc: 50.99%,  Time: 11:11:20 
+batch loss: 0.009100139141082764
+Iter:   4600,  Train Loss: 0.0091,  Val Acc: 52.54%,  Time: 11:25:57 
+batch loss: 0.0012721080565825105
+Iter:   4700,  Train Loss: 0.0013,  Val Acc: 51.69%,  Time: 11:40:37 
+batch loss: 0.0002561133587732911
+Iter:   4800,  Train Loss: 0.00026,  Val Acc: 50.04%,  Time: 11:55:14 
+batch loss: 0.0036071231588721275
+Iter:   4900,  Train Loss: 0.0036,  Val Acc: 52.79%,  Time: 12:09:50 
+batch loss: 0.006023072171956301
+Iter:   5000,  Train Loss: 0.006,  Val Acc: 53.14%,  Time: 12:24:26 
+batch loss: 0.0004634946817532182
+Iter:   5100,  Train Loss: 0.00046,  Val Acc: 55.64%,  Time: 12:39:04 
+batch loss: 0.0036178240552544594
+Iter:   5200,  Train Loss: 0.0036,  Val Acc: 53.89%,  Time: 12:53:44 
+batch loss: 0.009796889498829842
+Iter:   5300,  Train Loss: 0.0098,  Val Acc: 54.84%,  Time: 13:08:18 
+batch loss: 0.010741215199232101
+Iter:   5400,  Train Loss: 0.011,  Val Acc: 53.74%,  Time: 13:22:56 
+batch loss: 0.004641606006771326
+Iter:   5500,  Train Loss: 0.0046,  Val Acc: 53.94%,  Time: 13:37:34 
+batch loss: 0.009014604613184929
+Iter:   5600,  Train Loss: 0.009,  Val Acc: 45.95%,  Time: 13:52:12 
+batch loss: 0.00470252800732851
+Iter:   5700,  Train Loss: 0.0047,  Val Acc: 52.64%,  Time: 14:06:51 
+batch loss: 0.0034615686163306236
+Iter:   5800,  Train Loss: 0.0035,  Val Acc: 53.24%,  Time: 14:21:28 
+batch loss: 0.010879170149564743
+Iter:   5900,  Train Loss: 0.011,  Val Acc: 53.39%,  Time: 14:36:06 
+batch loss: 0.005191315431147814
+Iter:   6000,  Train Loss: 0.0052,  Val Acc: 53.89%,  Time: 14:50:42 
+batch loss: 0.007537872064858675
+Iter:   6100,  Train Loss: 0.0075,  Val Acc: 52.59%,  Time: 15:05:23 
+batch loss: 0.001758724101819098
+Iter:   6200,  Train Loss: 0.0018,  Val Acc: 53.89%,  Time: 15:20:03 
+batch loss: 0.0131596140563488
+Iter:   6300,  Train Loss: 0.013,  Val Acc: 53.39%,  Time: 15:34:41 
+batch loss: 0.005469525698572397
+Iter:   6400,  Train Loss: 0.0055,  Val Acc: 52.89%,  Time: 15:49:21 
+batch loss: 0.0021602483466267586
+Iter:   6500,  Train Loss: 0.0022,  Val Acc: 53.74%,  Time: 16:04:02 
+batch loss: 0.008442450314760208
+Iter:   6600,  Train Loss: 0.0084,  Val Acc: 53.19%,  Time: 16:18:45 
+batch loss: 0.009162021800875664
+Iter:   6700,  Train Loss: 0.0092,  Val Acc: 53.79%,  Time: 16:33:26 
+batch loss: 0.0056670294143259525
+Iter:   6800,  Train Loss: 0.0057,  Val Acc: 52.19%,  Time: 16:48:02 
+batch loss: 0.007675166707485914
+Iter:   6900,  Train Loss: 0.0077,  Val Acc: 52.79%,  Time: 17:02:39 
+batch loss: 0.0035196770913898945
+Iter:   7000,  Train Loss: 0.0035,  Val Acc: 53.39%,  Time: 17:17:16 
+batch loss: 0.0002643443876877427
+Iter:   7100,  Train Loss: 0.00026,  Val Acc: 54.59%,  Time: 17:31:54 
+batch loss: 0.002562873996794224
+Iter:   7200,  Train Loss: 0.0026,  Val Acc: 55.19%,  Time: 17:46:31 
+batch loss: 0.005678248591721058
+Iter:   7300,  Train Loss: 0.0057,  Val Acc: 54.89%,  Time: 18:01:08 
+batch loss: 0.0
+Iter:   7400,  Train Loss:   0.0,  Val Acc: 53.29%,  Time: 18:15:45 
+batch loss: 0.016897309571504593
+Iter:   7500,  Train Loss: 0.017,  Val Acc: 53.44%,  Time: 18:30:25 
+batch loss: 0.002576828934252262
+Iter:   7600,  Train Loss: 0.0026,  Val Acc: 54.49%,  Time: 18:45:02 
+batch loss: 0.0030716131441295147
+Iter:   7700,  Train Loss: 0.0031,  Val Acc: 53.99%,  Time: 18:59:39 
+batch loss: 0.005464458372443914
+Iter:   7800,  Train Loss: 0.0055,  Val Acc: 54.09%,  Time: 19:14:16 
+batch loss: 0.006606231443583965
+Iter:   7900,  Train Loss: 0.0066,  Val Acc: 52.14%,  Time: 19:28:53 
+batch loss: 0.002465282566845417
+Iter:   8000,  Train Loss: 0.0025,  Val Acc: 51.04%,  Time: 19:43:33 
+batch loss: 0.009137053973972797
+Iter:   8100,  Train Loss: 0.0091,  Val Acc: 53.44%,  Time: 19:58:10 
+batch loss: 0.004055411089211702
+Iter:   8200,  Train Loss: 0.0041,  Val Acc: 55.19%,  Time: 20:12:47 
+batch loss: 0.0002376284683123231
+Iter:   8300,  Train Loss: 0.00024,  Val Acc: 53.44%,  Time: 20:27:23 
+batch loss: 0.007253946736454964
+Iter:   8400,  Train Loss: 0.0073,  Val Acc: 51.79%,  Time: 20:42:01 
+batch loss: 0.003175025340169668
+Iter:   8500,  Train Loss: 0.0032,  Val Acc: 53.09%,  Time: 20:56:39 
+batch loss: 0.013361391611397266
+Iter:   8600,  Train Loss: 0.013,  Val Acc: 52.74%,  Time: 21:11:16 
+batch loss: 0.010133258998394012
+Iter:   8700,  Train Loss:  0.01,  Val Acc: 52.74%,  Time: 21:25:53 
+batch loss: 0.0025792685337364674
+Iter:   8800,  Train Loss: 0.0026,  Val Acc: 54.49%,  Time: 21:40:29 
+batch loss: 0.002544087590649724
+Iter:   8900,  Train Loss: 0.0025,  Val Acc: 54.09%,  Time: 21:55:08 
+batch loss: 0.011988976038992405
+Iter:   9000,  Train Loss: 0.012,  Val Acc: 53.34%,  Time: 22:09:45 
+batch loss: 0.014440080150961876
+Iter:   9100,  Train Loss: 0.014,  Val Acc: 54.74%,  Time: 22:24:22 
+batch loss: 0.006997381336987019
+Iter:   9200,  Train Loss: 0.007,  Val Acc: 53.59%,  Time: 22:38:58 
+batch loss: 0.006883313413709402
+Iter:   9300,  Train Loss: 0.0069,  Val Acc: 56.99%,  Time: 22:53:34 
+batch loss: 0.007020274177193642
+Iter:   9400,  Train Loss: 0.007,  Val Acc: 55.09%,  Time: 23:08:12 
+batch loss: 0.004090895876288414
+Iter:   9500,  Train Loss: 0.0041,  Val Acc: 52.84%,  Time: 23:22:48 
+batch loss: 0.0041736518032848835
+Iter:   9600,  Train Loss: 0.0042,  Val Acc: 53.64%,  Time: 23:37:23 
+batch loss: 0.005263268016278744
+Iter:   9700,  Train Loss: 0.0053,  Val Acc: 55.44%,  Time: 23:51:59 
+batch loss: 0.0037685115821659565
+Iter:   9800,  Train Loss: 0.0038,  Val Acc: 54.44%,  Time: 1 day, 0:06:35 
+batch loss: 0.002736140973865986
+Iter:   9900,  Train Loss: 0.0027,  Val Acc: 54.04%,  Time: 1 day, 0:21:12 
+batch loss: 0.0007962636882439256
+Iter:  10000,  Train Loss: 0.0008,  Val Acc: 53.19%,  Time: 1 day, 0:35:47 
+batch loss: 0.005598791874945164
+Iter:  10100,  Train Loss: 0.0056,  Val Acc: 54.54%,  Time: 1 day, 0:50:22 
+batch loss: 0.003139581996947527
+Iter:  10200,  Train Loss: 0.0031,  Val Acc: 55.49%,  Time: 1 day, 1:04:58 
+batch loss: 0.0005702186608687043
+Iter:  10300,  Train Loss: 0.00057,  Val Acc: 54.39%,  Time: 1 day, 1:19:37 
+batch loss: 0.0
+Iter:  10400,  Train Loss:   0.0,  Val Acc: 56.64%,  Time: 1 day, 1:34:17 
+batch loss: 0.0017389554996043444
+Iter:  10500,  Train Loss: 0.0017,  Val Acc: 55.29%,  Time: 1 day, 1:48:56 
+batch loss: 0.010386080481112003
+Iter:  10600,  Train Loss:  0.01,  Val Acc: 56.29%,  Time: 1 day, 2:03:35 
+batch loss: 0.00294524896889925
+Iter:  10700,  Train Loss: 0.0029,  Val Acc: 54.04%,  Time: 1 day, 2:18:13 
+batch loss: 0.004689100198447704
+Iter:  10800,  Train Loss: 0.0047,  Val Acc: 54.49%,  Time: 1 day, 2:32:50 
+batch loss: 0.00847981683909893
+Iter:  10900,  Train Loss: 0.0085,  Val Acc: 54.89%,  Time: 1 day, 2:47:27 
+batch loss: 0.0024456859100610018
+Iter:  11000,  Train Loss: 0.0024,  Val Acc: 54.59%,  Time: 1 day, 3:02:04 
+batch loss: 0.0027234491426497698
+Iter:  11100,  Train Loss: 0.0027,  Val Acc: 54.94%,  Time: 1 day, 3:16:42 
+batch loss: 0.004141798242926598
+Iter:  11200,  Train Loss: 0.0041,  Val Acc: 55.99%,  Time: 1 day, 3:31:19 
+batch loss: 0.0
+Iter:  11300,  Train Loss:   0.0,  Val Acc: 56.04%,  Time: 1 day, 3:45:56 
+batch loss: 0.004284946247935295
+Iter:  11400,  Train Loss: 0.0043,  Val Acc: 55.04%,  Time: 1 day, 4:00:33 
+batch loss: 0.009865987114608288
+Iter:  11500,  Train Loss: 0.0099,  Val Acc: 54.59%,  Time: 1 day, 4:15:10 
+batch loss: 0.0002592239761725068
+Iter:  11600,  Train Loss: 0.00026,  Val Acc: 55.64%,  Time: 1 day, 4:29:46 
+batch loss: 0.006191403139382601
+Iter:  11700,  Train Loss: 0.0062,  Val Acc: 54.74%,  Time: 1 day, 4:44:23 
+batch loss: 0.005069931037724018
+Iter:  11800,  Train Loss: 0.0051,  Val Acc: 56.09%,  Time: 1 day, 4:58:59 
+batch loss: 0.0004043445223942399
+Iter:  11900,  Train Loss: 0.0004,  Val Acc: 54.29%,  Time: 1 day, 5:13:37 
+batch loss: 0.004291405901312828
+Iter:  12000,  Train Loss: 0.0043,  Val Acc: 54.49%,  Time: 1 day, 5:28:14 
+batch loss: 0.0063312482088804245
+Iter:  12100,  Train Loss: 0.0063,  Val Acc: 53.99%,  Time: 1 day, 5:42:51 
+batch loss: 0.000440597184933722
+Iter:  12200,  Train Loss: 0.00044,  Val Acc: 55.84%,  Time: 1 day, 5:57:30 
+batch loss: 0.0035111336037516594
+Iter:  12300,  Train Loss: 0.0035,  Val Acc: 56.24%,  Time: 1 day, 6:12:08 
+batch loss: 0.0031588368583470583
+Iter:  12400,  Train Loss: 0.0032,  Val Acc: 57.29%,  Time: 1 day, 6:26:46 
+batch loss: 0.0024792917538434267
+Iter:  12500,  Train Loss: 0.0025,  Val Acc: 55.04%,  Time: 1 day, 6:41:24 
+batch loss: 0.0017031070310622454
+Iter:  12600,  Train Loss: 0.0017,  Val Acc: 54.84%,  Time: 1 day, 6:56:02 
+batch loss: 0.002026361646130681
+Iter:  12700,  Train Loss: 0.002,  Val Acc: 55.69%,  Time: 1 day, 7:10:41 
+batch loss: 0.0
+Iter:  12800,  Train Loss:   0.0,  Val Acc: 53.29%,  Time: 1 day, 7:25:21 
+batch loss: 0.002614202443510294
+Iter:  12900,  Train Loss: 0.0026,  Val Acc: 56.44%,  Time: 1 day, 7:40:01 
+batch loss: 0.0027163056656718254
+Iter:  13000,  Train Loss: 0.0027,  Val Acc: 54.54%,  Time: 1 day, 7:54:41 
+batch loss: 0.00017910788301378489
+Iter:  13100,  Train Loss: 0.00018,  Val Acc: 52.84%,  Time: 1 day, 8:09:20 
+batch loss: 0.002390818204730749
+Iter:  13200,  Train Loss: 0.0024,  Val Acc: 53.79%,  Time: 1 day, 8:23:58 
+batch loss: 0.005072093103080988
+Iter:  13300,  Train Loss: 0.0051,  Val Acc: 55.64%,  Time: 1 day, 8:38:39 
+batch loss: 0.0035330639220774174
+Iter:  13400,  Train Loss: 0.0035,  Val Acc: 54.99%,  Time: 1 day, 8:53:20 
+batch loss: 0.0008576341206207871
+Iter:  13500,  Train Loss: 0.00086,  Val Acc: 56.64%,  Time: 1 day, 9:08:02 
+batch loss: 0.005646266043186188
+Iter:  13600,  Train Loss: 0.0056,  Val Acc: 55.54%,  Time: 1 day, 9:22:42 
+batch loss: 0.007245645858347416
+Iter:  13700,  Train Loss: 0.0072,  Val Acc: 54.79%,  Time: 1 day, 9:37:20 
+batch loss: 0.004101133905351162
+Iter:  13800,  Train Loss: 0.0041,  Val Acc: 56.39%,  Time: 1 day, 9:51:57 
+batch loss: 0.0
+Iter:  13900,  Train Loss:   0.0,  Val Acc: 50.24%,  Time: 1 day, 10:06:34 
+batch loss: 0.0
+Iter:  14000,  Train Loss:   0.0,  Val Acc: 53.79%,  Time: 1 day, 10:21:10 
+batch loss: 0.005870648194104433
+Iter:  14100,  Train Loss: 0.0059,  Val Acc: 53.99%,  Time: 1 day, 10:35:47 
+batch loss: 0.009592702612280846
+Iter:  14200,  Train Loss: 0.0096,  Val Acc: 53.99%,  Time: 1 day, 10:50:24 
+batch loss: 0.007100952323526144
+Iter:  14300,  Train Loss: 0.0071,  Val Acc: 53.54%,  Time: 1 day, 11:05:01 
+batch loss: 0.00040637480560690165
+Iter:  14400,  Train Loss: 0.00041,  Val Acc: 56.54%,  Time: 1 day, 11:19:38 
+batch loss: 0.006855536252260208
+Iter:  14500,  Train Loss: 0.0069,  Val Acc: 55.44%,  Time: 1 day, 11:34:16 
+batch loss: 0.002412031404674053
+Iter:  14600,  Train Loss: 0.0024,  Val Acc: 55.74%,  Time: 1 day, 11:48:55 
+batch loss: 0.005083681084215641
+Iter:  14700,  Train Loss: 0.0051,  Val Acc: 56.89%,  Time: 1 day, 12:03:32 
+batch loss: 0.0009763233829289675
+Iter:  14800,  Train Loss: 0.00098,  Val Acc: 55.89%,  Time: 1 day, 12:18:09 
+batch loss: 0.00885143131017685
+Iter:  14900,  Train Loss: 0.0089,  Val Acc: 55.74%,  Time: 1 day, 12:32:47 
+batch loss: 0.005158735904842615
+Iter:  15000,  Train Loss: 0.0052,  Val Acc: 55.39%,  Time: 1 day, 12:47:23 
+batch loss: 0.0056423768401145935
+Iter:  15100,  Train Loss: 0.0056,  Val Acc: 54.74%,  Time: 1 day, 13:02:00 
+batch loss: 0.0035292194224894047
+Iter:  15200,  Train Loss: 0.0035,  Val Acc: 55.44%,  Time: 1 day, 13:16:36 
+batch loss: 0.0018332094186916947
+Iter:  15300,  Train Loss: 0.0018,  Val Acc: 55.14%,  Time: 1 day, 13:31:12 
+batch loss: 0.017232481390237808
+Iter:  15400,  Train Loss: 0.017,  Val Acc: 54.49%,  Time: 1 day, 13:45:47 
+batch loss: 0.0014331132406368852
+Iter:  15500,  Train Loss: 0.0014,  Val Acc: 53.64%,  Time: 1 day, 14:00:21 
+batch loss: 0.004682973958551884
+Iter:  15600,  Train Loss: 0.0047,  Val Acc: 49.20%,  Time: 1 day, 14:14:57 
+batch loss: 0.008481696248054504
+Iter:  15700,  Train Loss: 0.0085,  Val Acc: 42.65%,  Time: 1 day, 14:29:33 
+batch loss: 0.004334610886871815
+Iter:  15800,  Train Loss: 0.0043,  Val Acc: 51.44%,  Time: 1 day, 14:44:09 
+batch loss: 0.0016294372035190463
+Iter:  15900,  Train Loss: 0.0016,  Val Acc: 52.09%,  Time: 1 day, 14:58:45 
+batch loss: 0.002989462809637189
+Iter:  16000,  Train Loss: 0.003,  Val Acc: 54.19%,  Time: 1 day, 15:13:21 
+batch loss: 0.001588287646882236
+Iter:  16100,  Train Loss: 0.0016,  Val Acc: 55.39%,  Time: 1 day, 15:28:00 
+batch loss: 0.00895222369581461
+Iter:  16200,  Train Loss: 0.009,  Val Acc: 55.14%,  Time: 1 day, 15:42:39 
+batch loss: 0.0
+Iter:  16300,  Train Loss:   0.0,  Val Acc: 55.24%,  Time: 1 day, 15:57:18 
+batch loss: 4.6549015678465366e-05
+Iter:  16400,  Train Loss: 4.7e-05,  Val Acc: 55.74%,  Time: 1 day, 16:11:58 
+batch loss: 0.0002483740681782365
+Iter:  16500,  Train Loss: 0.00025,  Val Acc: 54.59%,  Time: 1 day, 16:26:36 
+batch loss: 0.000926265143789351
+Iter:  16600,  Train Loss: 0.00093,  Val Acc: 54.94%,  Time: 1 day, 16:41:15 
+batch loss: 0.0
+Iter:  16700,  Train Loss:   0.0,  Val Acc: 56.29%,  Time: 1 day, 16:55:53 
+batch loss: 0.005488652270287275
+Iter:  16800,  Train Loss: 0.0055,  Val Acc: 54.64%,  Time: 1 day, 17:10:32 
+batch loss: 0.009034005925059319
+Iter:  16900,  Train Loss: 0.009,  Val Acc: 55.24%,  Time: 1 day, 17:25:11 
+batch loss: 0.004673774354159832
+Iter:  17000,  Train Loss: 0.0047,  Val Acc: 55.44%,  Time: 1 day, 17:39:50 
+batch loss: 0.0018474977696314454
+Iter:  17100,  Train Loss: 0.0018,  Val Acc: 56.44%,  Time: 1 day, 17:54:30 
+batch loss: 0.005609838757663965
+Iter:  17200,  Train Loss: 0.0056,  Val Acc: 55.49%,  Time: 1 day, 18:09:09 
+batch loss: 0.006517998408526182
+Iter:  17300,  Train Loss: 0.0065,  Val Acc: 55.94%,  Time: 1 day, 18:23:49 
+batch loss: 0.0030314652249217033
+Iter:  17400,  Train Loss: 0.003,  Val Acc: 56.59%,  Time: 1 day, 18:38:28 
+batch loss: 0.001921997289173305
+Iter:  17500,  Train Loss: 0.0019,  Val Acc: 56.39%,  Time: 1 day, 18:53:07 
+batch loss: 0.0012267243582755327
+Iter:  17600,  Train Loss: 0.0012,  Val Acc: 55.49%,  Time: 1 day, 19:07:47 
+batch loss: 0.0036266655661165714
+Iter:  17700,  Train Loss: 0.0036,  Val Acc: 53.29%,  Time: 1 day, 19:22:25 
+batch loss: 0.005672351457178593
+Iter:  17800,  Train Loss: 0.0057,  Val Acc: 57.99%,  Time: 1 day, 19:37:05 
+batch loss: 0.0020752057898789644
+Iter:  17900,  Train Loss: 0.0021,  Val Acc: 56.34%,  Time: 1 day, 19:51:45 
+batch loss: 0.008810902014374733
+Iter:  18000,  Train Loss: 0.0088,  Val Acc: 56.54%,  Time: 1 day, 20:06:24 
+batch loss: 0.0014523447025567293
+Iter:  18100,  Train Loss: 0.0015,  Val Acc: 56.14%,  Time: 1 day, 20:21:03 
+batch loss: 0.004079547710716724
+Iter:  18200,  Train Loss: 0.0041,  Val Acc: 55.44%,  Time: 1 day, 20:35:43 
+batch loss: 0.0
+Iter:  18300,  Train Loss:   0.0,  Val Acc: 55.84%,  Time: 1 day, 20:50:22 
+batch loss: 0.0013783496106043458
+Iter:  18400,  Train Loss: 0.0014,  Val Acc: 55.64%,  Time: 1 day, 21:05:02 
+batch loss: 0.016015473753213882
+Iter:  18500,  Train Loss: 0.016,  Val Acc: 41.20%,  Time: 1 day, 21:19:41 
+batch loss: 0.003584757912904024
+Iter:  18600,  Train Loss: 0.0036,  Val Acc: 52.39%,  Time: 1 day, 21:34:21 
+batch loss: 0.009373852983117104
+Iter:  18700,  Train Loss: 0.0094,  Val Acc: 54.74%,  Time: 1 day, 21:49:01 
+batch loss: 0.008113694377243519
+Iter:  18800,  Train Loss: 0.0081,  Val Acc: 55.24%,  Time: 1 day, 22:03:40 
+batch loss: 0.0038889385759830475
+Iter:  18900,  Train Loss: 0.0039,  Val Acc: 56.69%,  Time: 1 day, 22:18:19 
+batch loss: 0.00825430452823639
+Iter:  19000,  Train Loss: 0.0083,  Val Acc: 56.34%,  Time: 1 day, 22:32:58 
+batch loss: 0.008428361266851425
+Iter:  19100,  Train Loss: 0.0084,  Val Acc: 54.74%,  Time: 1 day, 22:47:36 
+batch loss: 0.0
+Iter:  19200,  Train Loss:   0.0,  Val Acc: 55.14%,  Time: 1 day, 23:02:16 
+batch loss: 0.002965834690257907
+Iter:  19300,  Train Loss: 0.003,  Val Acc: 56.09%,  Time: 1 day, 23:16:55 
+batch loss: 0.012004859745502472
+Iter:  19400,  Train Loss: 0.012,  Val Acc: 55.59%,  Time: 1 day, 23:31:35 
+batch loss: 0.001991722034290433
+Iter:  19500,  Train Loss: 0.002,  Val Acc: 55.04%,  Time: 1 day, 23:46:14 
+batch loss: 0.004361598286777735
+Iter:  19600,  Train Loss: 0.0044,  Val Acc: 57.19%,  Time: 2 days, 0:00:54 
+batch loss: 0.005918879993259907
+Iter:  19700,  Train Loss: 0.0059,  Val Acc: 56.04%,  Time: 2 days, 0:15:34 
+batch loss: 0.0036140098236501217

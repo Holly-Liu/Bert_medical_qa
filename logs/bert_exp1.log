@@ -1,0 +1,31 @@
+Loading data...
+Reading file cost time: 0:00:01
+Tokenizing cost time: 0:02:05
+Join table cost time: 0:00:02
+Zip and transfer to list cost time: 0:00:04
+Time usage: 0:02:11
+Epoch [1/3]
+batch loss: 0.4850972890853882
+Iter:      0,  Train Loss:  0.49,  Val Acc: 20.28%,  Time: 0:21:08 
+batch loss: 0.42665213346481323
+Iter:    100,  Train Loss:  0.43,  Val Acc: 20.65%,  Time: 0:43:14 
+batch loss: 0.3130049705505371
+Iter:    200,  Train Loss:  0.31,  Val Acc: 24.53%,  Time: 1:05:21 
+batch loss: 0.30605411529541016
+Iter:    300,  Train Loss:  0.31,  Val Acc: 51.53%,  Time: 1:27:32 
+batch loss: 0.2337321937084198
+Iter:    400,  Train Loss:  0.23,  Val Acc: 58.95%,  Time: 1:49:40 
+batch loss: 0.27134326100349426
+Iter:    500,  Train Loss:  0.27,  Val Acc: 68.44%,  Time: 2:11:49 
+batch loss: 0.11102169752120972
+Iter:    600,  Train Loss:  0.11,  Val Acc: 69.51%,  Time: 2:34:02 
+batch loss: 0.15494827926158905
+Iter:    700,  Train Loss:  0.15,  Val Acc: 69.50%,  Time: 2:56:12 
+batch loss: 0.1275239735841751
+Iter:    800,  Train Loss:  0.13,  Val Acc: 71.74%,  Time: 3:18:26 
+batch loss: 0.2915603518486023
+Iter:    900,  Train Loss:  0.29,  Val Acc: 74.49%,  Time: 3:40:41 
+batch loss: 0.11387015134096146
+Iter:   1000,  Train Loss:  0.11,  Val Acc: 75.20%,  Time: 4:02:58 
+No optimization for a long time, auto-stopping...
+test_acc: 0.7595386186346406

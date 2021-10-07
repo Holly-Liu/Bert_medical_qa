@@ -1,0 +1,14 @@
+python run.py \
+  --device cuda:3 \
+  --model bert_mean_pool \
+  --learning_rate 2e-5 \
+  --margin 0.1 \
+  --hitn 1 \
+  --require_improvement 10000 \
+  --num_epochs 3 \
+  --batch_size 32 \
+  --pad_size 64 \
+  --seed 1 \
+  --dev_step 500 \
+  --bert_path ""
+  --log_name MTBERT_MEAN_POOL_BS32_PS64_SAMPLE_DEV
